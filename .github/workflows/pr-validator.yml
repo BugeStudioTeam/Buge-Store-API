@@ -1,0 +1,43 @@
+name: PR Validator
+
+on:
+  pull_request:
+    paths:
+      - 'apps/**/*.yml'
+      - 'apps/**/*.yaml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml jsonschema requests
+
+      - name: Validate YAML syntax
+        run: |
+          python scripts/validator.py
+
+      - name: Security scan
+        run: |
+          python scripts/security_scanner.py
+
+      - name: Check APK URLs
+        run: |
+          python scripts/check_apk_urls.py
+
+      - name: Validate against schema
+        run: |
+          python scripts/schema_validator.py
+
+      - name: All checks passed
+        run: |
+          echo "All validation checks passed. Ready for merge."

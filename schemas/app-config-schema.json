@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["package_name", "app_name", "developer", "versions", "signature_fingerprint"],
+  "properties": {
+    "package_name": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*(\\.[a-z][a-z0-9_]*)+$",
+      "description": "Unique package name following Java naming conventions"
+    },
+    "app_name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name of the application"
+    },
+    "developer": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Developer or organization name"
+    },
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "description": "Developer website"
+    },
+    "source_code": {
+      "type": "string",
+      "format": "uri",
+      "description": "Source code repository URL"
+    },
+    "versions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["version_code", "version_name", "apk"],
+        "properties": {
+          "version_code": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Internal version number"
+          },
+          "version_name": {
+            "type": "string",
+            "description": "User-facing version string"
+          },
+          "release_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Release date in YYYY-MM-DD format"
+          },
+          "changelog": {
+            "type": "string",
+            "description": "Release notes"
+          },
+          "apk": {
+            "type": "object",
+            "required": ["primary_url", "sha256_hash"],
+            "properties": {
+              "primary_url": {
+                "type": "string",
+                "format": "uri",
+                "description": "Primary download URL"
+              },
+              "mirror_url": {
+                "type": "string",
+                "format": "uri",
+                "description": "Mirror download URL for regions with restricted access"
+              },
+              "sha256_hash": {
+                "type": "string",
+                "pattern": "^[a-fA-F0-9]{64}$",
+                "description": "SHA-256 checksum of the APK file"
+              },
+              "file_size_mb": {
+                "type": "number",
+                "minimum": 0,
+                "description": "APK file size in megabytes"
+              }
+            }
+          }
+        }
+      }
+    },
+    "signature_fingerprint": {
+      "type": "string",
+      "pattern": "^([A-F0-9]{2}:){15}[A-F0-9]{2}$",
+      "description": "SHA-1 certificate fingerprint, format: AB:CD:EF:..."
+    },
+    "min_sdk": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Minimum Android SDK version required"
+    },
+    "target_sdk": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Target Android SDK version"
+    },
+    "architectures": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"]
+      },
+      "description": "Supported CPU architectures"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Application categories"
+    },
+    "downloads": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Download count (auto-generated)"
+    },
+    "rating": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "User rating (auto-generated)"
+    }
+  }
+}
