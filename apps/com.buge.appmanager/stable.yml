@@ -7,7 +7,7 @@ source_code: https://github.com/BugeStudioTeam/Buge-App-Manager
 versions:
   - version_code: 138
     version_name: "8.54.105"
-    release_date: 2026-07-17
+    release_date: "2026-07-17"
     changelog: |
       **8.54.105**
 
