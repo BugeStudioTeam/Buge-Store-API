@@ -84,8 +84,8 @@
     },
     "signature_fingerprint": {
       "type": "string",
-      "pattern": "^([A-F0-9]{2}:){15}[A-F0-9]{2}$",
-      "description": "SHA-1 certificate fingerprint, format: AB:CD:EF:..."
+      "pattern": "^([A-F0-9]{2}:){15}[A-F0-9]{2}$|^([A-F0-9]{2}:){19}[A-F0-9]{2}$",
+      "description": "SHA-1 certificate fingerprint, supports 16-group (32 chars) or 20-group (40 chars) format"
     },
     "min_sdk": {
       "type": "integer",
