@@ -1,14 +1,6 @@
 name: Index Builder
 
 on:
-  pull_request:
-    types:
-      - closed
-    branches:
-      - main
-    paths:
-      - 'apps/**/*.yml'
-      - 'apps/**/*.yaml'
   push:
     branches:
       - main
@@ -22,7 +14,6 @@ permissions:
 
 jobs:
   build:
-    if: github.event.pull_request.merged == true || github.event_name == 'push' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -42,11 +33,9 @@ jobs:
           python scripts/generate_api.py
 
       - name: Commit and push
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add api/v1/
-          git diff --staged --quiet || git commit -m "chore: update API index [skip ci]"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update API index [skip ci]"
+          file_pattern: "api/v1/*.json"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
