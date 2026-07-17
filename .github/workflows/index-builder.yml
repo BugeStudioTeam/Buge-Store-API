@@ -9,12 +9,11 @@ on:
       - 'apps/**/*.yaml'
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -39,5 +38,3 @@ jobs:
           git add api/v1/
           git diff --staged --quiet || git commit -m "chore: update API index [skip ci]"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
