@@ -1,12 +1,13 @@
 {
   "version": 1,
-  "last_updated": "2026-07-18T01:35:05.726412Z",
+  "last_updated": "2026-07-18T03:58:23.332902Z",
   "total_apps": 2,
   "apps": [
     {
       "package": "com.buge.appmanager",
       "name": "Buge App Manager",
       "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.appmanager/metadata/icon.webp",
+      "banner": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.appmanager/metadata/banner.webp",
       "categories": [
         "Tools",
         "Utilities"
@@ -16,12 +17,29 @@
       "size_mb": 8.93,
       "signature": "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88",
       "min_sdk": 26,
-      "developer": "BugeStudioTeam"
+      "target_sdk": 34,
+      "developer": "BugeStudioTeam",
+      "changelog": "8.54.105\n\nAdded\n- Added Traditional Chinese language support\n\nOptimizations\n- Optimized icon and resource files\n- Improved language system\n\nContributors of this version:\nNone\n",
+      "short_description": "An application management tool that obtains adb shell privileges via Shizuku",
+      "description": "Buge App Manager is a powerful Android utility application designed for advanced app and permission management. Built with Material Design 3, it offers a modern and intuitive interface for granular control over your device.\n\nFeatures\n\n- Shizuku Integration: Operates with Shizuku authorization for elevated control without requiring root.\n\n- App Management: Browse and manage both user-installed and system applications with ease.\n\n- Material Design 3 UI: Clean, system-themed interface that follows the latest Android design guidelines.\n\nPermission Manager\n\n- View and modify app permissions by category\n- Supported categories include: Microphone, Camera, Location access, Notifications, Phone & Contacts, Storage and other\n- Filter permissions by granted or denied status\n- Batch permission operations for multiple apps\n\nPrivacy & Security\n\n- Quickly identify which apps have access to sensitive permissions\n- Optimize your device's security posture with clear permission insights\n\nNote: Shizuku is required for advanced permission management features.\n\nLicense: GNU General Public License v3.0\n",
+      "featured": true,
+      "rating": 4.8,
+      "rating_count": 127,
+      "website": "https://bugestudio.website/appmanager/",
+      "source_code": "https://github.com/BugeStudioTeam/Buge-App-Manager",
+      "release_date": "2026-07-17",
+      "downloads": 1523,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86"
+      ]
     },
     {
       "package": "com.buge.codeintegrator",
       "name": "Code Integrator",
       "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.codeintegrator/metadata/icon.webp",
+      "banner": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.codeintegrator/metadata/banner.webp",
       "categories": [
         "Tools",
         "Utilities"
@@ -31,7 +49,23 @@
       "size_mb": 4.5,
       "signature": "11:4F:C5:4A:9E:4E:B5:6E:78:9C:26:C6:E6:38:B2:B4:A3:5B:23:28",
       "min_sdk": 21,
-      "developer": "BugeStudioTeam"
+      "target_sdk": 34,
+      "developer": "BugeStudioTeam",
+      "changelog": "1.4.3\n\nAdd:\nFour languages added\n  \nBug:\nFixed cannot use Code Integrator\n",
+      "short_description": "",
+      "description": "",
+      "featured": false,
+      "rating": 0.0,
+      "rating_count": 0,
+      "website": "https://github.com/BugeStudioTeam/Buge-Code-Integrator",
+      "source_code": "https://github.com/BugeStudioTeam/Buge-Code-Integrator",
+      "release_date": "2026-05-03",
+      "downloads": 0,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86"
+      ]
     }
   ]
 }
