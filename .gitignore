@@ -40,9 +40,8 @@ yarn-error.log*
 .env.local
 .env.*.local
 
-# Generated API files (but keep .keep)
-api/v1/*.json
-!api/v1/.keep
+# Generated API files - now tracked
+# api/v1/*.json  # Commented out to allow tracking
 
 # Test coverage
 .coverage
