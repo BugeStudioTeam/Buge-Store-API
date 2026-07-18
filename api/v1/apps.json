@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-07-18T01:32:33.160002Z",
+  "last_updated": "2026-07-18T01:35:05.726412Z",
   "total_apps": 2,
   "apps": [
     {
@@ -19,9 +19,9 @@
       "developer": "BugeStudioTeam"
     },
     {
-      "package": "com.buge.appmanager",
-      "name": "Buge App Manager",
-      "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.appmanager/metadata/icon.webp",
+      "package": "com.buge.codeintegrator",
+      "name": "Code Integrator",
+      "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.codeintegrator/metadata/icon.webp",
       "categories": [
         "Tools",
         "Utilities"
