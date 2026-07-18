@@ -1,0 +1,20 @@
+{
+  "categories": [
+    {
+      "name": "Tools",
+      "count": 2,
+      "apps": [
+        "com.buge.appmanager",
+        "com.buge.appmanager"
+      ]
+    },
+    {
+      "name": "Utilities",
+      "count": 2,
+      "apps": [
+        "com.buge.appmanager",
+        "com.buge.appmanager"
+      ]
+    }
+  ]
+}

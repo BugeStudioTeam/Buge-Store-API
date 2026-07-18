@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "last_updated": "2026-07-18T00:43:44.635501Z",
+  "total_apps": 2,
+  "apps": [
+    {
+      "package": "com.buge.appmanager",
+      "name": "Buge App Manager",
+      "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.appmanager/metadata/icon.webp",
+      "categories": [
+        "Tools",
+        "Utilities"
+      ],
+      "latest_version": "8.54.105",
+      "download_url": "https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager8.54.105/BugeAppManager-v8.54.105-release.apk",
+      "size_mb": 8.93,
+      "signature": "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88",
+      "min_sdk": 26,
+      "developer": "BugeStudioTeam"
+    },
+    {
+      "package": "com.buge.appmanager",
+      "name": "Buge App Manager",
+      "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.appmanager/metadata/icon.webp",
+      "categories": [
+        "Tools",
+        "Utilities"
+      ],
+      "latest_version": "8.54.105",
+      "download_url": "https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager8.54.105/BugeAppManager-v8.54.105-release.apk",
+      "size_mb": 8.93,
+      "signature": "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88",
+      "min_sdk": 26,
+      "developer": "BugeStudioTeam"
+    }
+  ]
+}
