@@ -13,14 +13,14 @@ description: |
   - 新增播放队列管理、歌词增强、歌单收藏与多选操作
   - 集成了 Navidrome 服务端支持
 
-This is the Android preview version of NGS-KG+ based on Nightcord 2.0.0.
+  This is the Android preview version of NGS-KG+ based on Nightcord 2.0.0.
 
-New in this version:
+  New in this version:
 
-· Replaced the playback engine from just_audio to media_kit for better performance and more features
-· Completely redesigned UI with new sidebar navigation, MD3 animations, and theming system
-· Added playback queue management, enhanced lyrics display, playlist favorites, and multi-select operations
-· Integrated Navidrome server support
+  · Replaced the playback engine from just_audio to media_kit for better performance and more features
+  · Completely redesigned UI with new sidebar navigation, MD3 animations, and theming system
+  · Added playback queue management, enhanced lyrics display, playlist favorites, and multi-select operations
+  · Integrated Navidrome server support
 
 
 featured: true
