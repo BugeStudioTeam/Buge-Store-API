@@ -3,37 +3,62 @@ app_name: Code Integrator
 developer: BugeStudioTeam
 website: https://github.com/BugeStudioTeam/Buge-Code-Integrator
 source_code: https://github.com/BugeStudioTeam/Buge-Code-Integrator
-
+short_description: "Merge source code files from any project into a single text file for analysis, backup, and sharing"
+description: |
+  Code Integrator is an Android utility app that merges source code files from any project folder into a single, well-organized text file. It simplifies code analysis, backup, and sharing by consolidating your entire project's source into one portable file.
+  
+  Features
+  
+  - Merge all source files into one text file for easy review and sharing
+  - Project tree structure viewer with visual hierarchy
+  - Custom file type filters to exclude images, audio, video, archives, binaries, and more
+  - Auto-exclude build and .gradle folders to keep output clean
+  - File size ranking to quickly spot large files
+  - Material Design 3 UI with light and dark theme support
+  
+  Supported File Types
+  
+  Included: .java, .kt, .xml, .gradle, .txt, .md, .json, .sh, .bat, .gitignore
+  Excluded by default: .jpg, .png, .mp3, .mp4, .zip, .exe, .pdf, .doc, .class, and more
+  
+  Output Format
+  
+  The generated file includes:
+  - Project tree structure with folder and file icons
+  - Complete content of each text file
+  - File size ranking for quick identification of large files
+  
+  Note: Storage permission is required to access project folders.
+  
+  License: GNU General Public License v3.0
+featured: false
+rating: 0.0
+rating_count: 0
+downloads: 0
 versions:
   - version_code: 2
     version_name: "1.4.3"
     release_date: "2026-05-03"
     changelog: |
       1.4.3
-
-      Add:
-      Four languages added
-        
-      Bug:
-      Fixed cannot use Code Integrator
+      
+      Added
+      - Added support for four new languages
+      
+      Fixed
+      - Fixed issue where Code Integrator could not be used
     apk:
       primary_url: https://github.com/BugeStudioTeam/Buge-Code-Integrator/releases/download/CodeIntegrator1.4.3/BugeCodeIntegrator-v1.4.3-release.apk
       mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-Code-Integrator/releases/download/CodeIntegrator1.4.3/BugeCodeIntegrator-v1.4.3-release.apk
       sha256_hash: 9b98b7116b38a6a3c4d51a10f0e409f6bff8a6012e5d9176fe648592c99c2874
       file_size_mb: 4.5
-
 signature_fingerprint: "11:4F:C5:4A:9E:4E:B5:6E:78:9C:26:C6:E6:38:B2:B4:A3:5B:23:28"
-
 min_sdk: 21
 target_sdk: 34
 architectures:
   - arm64-v8a
   - armeabi-v7a
   - x86
-
 categories:
   - Tools
   - Utilities
-
-downloads: 0
-rating: 0.0
