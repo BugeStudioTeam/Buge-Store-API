@@ -78,6 +78,63 @@ def generate_categories_json(apps):
     return {'categories': categories}
 
 def generate_trending_json(apps):
+    sorted_apps = sorted(apps, key=lambda x: (x.get('rating', 0) * 10 + x.get('downloads', 0)), reverse=True)
+    trending = [
+        {
+            'package': app['package'],
+            'name': app['name'],
+            'downloads': app.get('downloads', 0),
+            'rating': app.get('rating', 0),
+            'trend_score': app.get('rating', 0) * 10 + app.get('downloads', 0)
+        }
+        for app in sorted_apps[:10]
+    ]
+    
+    return {
+        'last_updated': datetime.utcnow().isoformat() + 'Z',
+        'trending': trending
+    }
+
+def main():
+    apps_dir = Path('apps')
+    api_dir = Path('api/v1')
+    
+    if not apps_dir.exists():
+        print("No apps directory found. Nothing to generate.")
+        return
+    
+    api_dir.mkdir(parents=True, exist_ok=True)
+    
+    apps = load_app_configs(apps_dir)
+    
+    if not apps:
+        print("No valid applications found.")
+        return
+    
+    with open(api_dir / 'apps.json', 'w', encoding='utf-8') as f:
+        json.dump(generate_apps_json(apps), f, indent=2, ensure_ascii=False)
+    
+    with open(api_dir / 'categories.json', 'w', encoding='utf-8') as f:
+        json.dump(generate_categories_json(apps), f, indent=2, ensure_ascii=False)
+    
+    with open(api_dir / 'trending.json', 'w', encoding='utf-8') as f:
+        json.dump(generate_trending_json(apps), f, indent=2, ensure_ascii=False)
+    
+    print(f"Generated API files for {len(apps)} apps:")
+    print(f"  - {api_dir / 'apps.json'}")
+    print(f"  - {api_dir / 'categories.json'}")
+    print(f"  - {api_dir / 'trending.json'}")
+
+if __name__ == "__main__":
+    main()    categories = [
+        {'name': name, 'count': info['count'], 'apps': info['apps']}
+        for name, info in categories_map.items()
+    ]
+    categories.sort(key=lambda x: x['count'], reverse=True)
+    
+    return {'categories': categories}
+
+def generate_trending_json(apps):
     sorted_apps = sorted(
         apps,
         key=lambda x: (x.get('rating', 0) * 10 + x.get('downloads', 0)),
