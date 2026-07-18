@@ -1,10 +1,64 @@
 import os
 import yaml
 import json
+import requests
+import re
+import sys
 from pathlib import Path
 from datetime import datetime
 
-def load_app_configs(apps_dir):
+def get_release_downloads(owner, repo, token=None):
+    headers = {}
+    if token:
+        headers['Authorization'] = f'token {token}'
+    
+    total_downloads = 0
+    page = 1
+    url = f'https://api.github.com/repos/{owner}/{repo}/releases'
+    
+    while True:
+        try:
+            response = requests.get(
+                url,
+                headers=headers,
+                params={'page': page, 'per_page': 100},
+                timeout=10
+            )
+            
+            if response.status_code != 200:
+                print(f"GitHub API error: {response.status_code} for {owner}/{repo}")
+                return None
+            
+            releases = response.json()
+            
+            if not releases:
+                break
+            
+            for release in releases:
+                for asset in release.get('assets', []):
+                    total_downloads += asset.get('download_count', 0)
+            
+            page += 1
+            
+        except Exception as e:
+            print(f"Failed to fetch downloads for {owner}/{repo}: {e}")
+            return None
+    
+    return total_downloads
+
+def get_real_downloads(source_code_url, github_token=None):
+    if not source_code_url:
+        return None
+    
+    match = re.search(r'github\.com/([^/]+)/([^/]+)', source_code_url)
+    if not match:
+        return None
+    
+    owner = match.group(1)
+    repo = match.group(2).replace('.git', '')
+    return get_release_downloads(owner, repo, github_token)
+
+def load_app_configs(apps_dir, github_token=None):
     apps = []
     yaml_files = list(apps_dir.rglob('*.yml')) + list(apps_dir.rglob('*.yaml'))
     
@@ -19,6 +73,11 @@ def load_app_configs(apps_dir):
             package = data.get('package_name', 'unknown')
             latest_version = data.get('versions', [{}])[0] if data.get('versions') else {}
             apk = latest_version.get('apk', {})
+            
+            real_downloads = None
+            source_code = data.get('source_code', '')
+            if source_code:
+                real_downloads = get_real_downloads(source_code, github_token)
             
             app_entry = {
                 'package': package,
@@ -40,9 +99,9 @@ def load_app_configs(apps_dir):
                 'rating': data.get('rating', 0),
                 'rating_count': data.get('rating_count', 0),
                 'website': data.get('website', ''),
-                'source_code': data.get('source_code', ''),
+                'source_code': source_code,
                 'release_date': latest_version.get('release_date', ''),
-                'downloads': data.get('downloads', 0),
+                'downloads': real_downloads if real_downloads is not None else data.get('downloads', 0),
                 'architectures': data.get('architectures', [])
             }
             apps.append(app_entry)
@@ -78,7 +137,11 @@ def generate_categories_json(apps):
     return {'categories': categories}
 
 def generate_trending_json(apps):
-    sorted_apps = sorted(apps, key=lambda x: (x.get('rating', 0) * 10 + x.get('downloads', 0)), reverse=True)
+    sorted_apps = sorted(
+        apps,
+        key=lambda x: (x.get('rating', 0) * 10 + x.get('downloads', 0)),
+        reverse=True
+    )
     trending = [
         {
             'package': app['package'],
@@ -105,7 +168,9 @@ def main():
     
     api_dir.mkdir(parents=True, exist_ok=True)
     
-    apps = load_app_configs(apps_dir)
+    github_token = os.environ.get('GITHUB_TOKEN', None)
+    
+    apps = load_app_configs(apps_dir, github_token)
     
     if not apps:
         print("No valid applications found.")
