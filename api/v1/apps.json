@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-07-18T04:39:54.700561Z",
-  "total_apps": 2,
+  "last_updated": "2026-07-18T12:24:27.766528Z",
+  "total_apps": 3,
   "apps": [
     {
       "package": "com.buge.appmanager",
@@ -23,12 +23,12 @@
       "short_description": "An application management tool that obtains adb shell privileges via Shizuku",
       "description": "Buge App Manager is a powerful Android utility application designed for advanced app and permission management. Built with Material Design 3, it offers a modern and intuitive interface for granular control over your device.\n\nFeatures\n\n- Shizuku Integration: Operates with Shizuku authorization for elevated control without requiring root.\n\n- App Management: Browse and manage both user-installed and system applications with ease.\n\n- Material Design 3 UI: Clean, system-themed interface that follows the latest Android design guidelines.\n\nPermission Manager\n\n- View and modify app permissions by category\n- Supported categories include: Microphone, Camera, Location access, Notifications, Phone & Contacts, Storage and other\n- Filter permissions by granted or denied status\n- Batch permission operations for multiple apps\n\nPrivacy & Security\n\n- Quickly identify which apps have access to sensitive permissions\n- Optimize your device's security posture with clear permission insights\n\nNote: Shizuku is required for advanced permission management features.\n\nLicense: GNU General Public License v3.0\n",
       "featured": true,
-      "rating": 4.8,
-      "rating_count": 127,
+      "rating": 0.0,
+      "rating_count": 0,
       "website": "https://bugestudio.website/appmanager/",
       "source_code": "https://github.com/BugeStudioTeam/Buge-App-Manager",
       "release_date": "2026-07-17",
-      "downloads": 1523,
+      "downloads": 0,
       "architectures": [
         "arm64-v8a",
         "armeabi-v7a",
@@ -65,6 +65,36 @@
         "arm64-v8a",
         "armeabi-v7a",
         "x86"
+      ]
+    },
+    {
+      "package": "com.mjiutang.ngskg",
+      "name": "NGS-KG+",
+      "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.mjiutang.ngskg/metadata/icon.webp",
+      "banner": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.mjiutang.ngskg/metadata/banner.webp",
+      "categories": [
+        "Music",
+        "Tools"
+      ],
+      "latest_version": "1.5.0-preview",
+      "download_url": "https://github.com/Tangmjiu/NGS-KG/releases/download/v1.5.0-preview/NGS-KG-arm64-v8a-release.apk",
+      "size_mb": 53.1,
+      "signature": "C8:8E:A7:9A:11:88:65:53:25:44:BA:5F:71:A4:EE:5B:94:BB:FF:75",
+      "min_sdk": 24,
+      "target_sdk": 36,
+      "developer": "Tangmjiu",
+      "changelog": "- 播放引擎从 just_audio 换成了 media_kit\n- UI 全面重写，新增侧边栏导航、MD3 动效\n- 新增播放队列管理、歌词增强、歌单收藏与多选操作\n- 集成 Navidrome 服务端支持\n\n· Replaced the playback engine from just_audio to media_kit for better performance and more features\n· Completely redesigned UI with new sidebar navigation, MD3 animations, and theming system\n· Added playback queue management, enhanced lyrics display, playlist favorites, and multi-select operations\n· Integrated Navidrome server support\n",
+      "short_description": "NGS-KG+ v1.5.0-preview Nightcord 2.0.0 Preview (Android )",
+      "description": "这是 NGS-KG+ 基于 Nightcord 2.0.0 的 Android 预览版本。\n\n本版本更新内容：\n- 播放引擎从 just_audio 换成了 media_kit，底层能力更强\n- UI 全面重写：新的侧边栏导航、MD3 动效和主题系统\n- 新增播放队列管理、歌词增强、歌单收藏与多选操作\n- 集成了 Navidrome 服务端支持\n\nThis is the Android preview version of NGS-KG+ based on Nightcord 2.0.0.\n\nNew in this version:\n\n· Replaced the playback engine from just_audio to media_kit for better performance and more features\n· Completely redesigned UI with new sidebar navigation, MD3 animations, and theming system\n· Added playback queue management, enhanced lyrics display, playlist favorites, and multi-select operations\n· Integrated Navidrome server support\n",
+      "featured": true,
+      "rating": 0.0,
+      "rating_count": 0,
+      "website": "https://github.com/Tangmjiu/NGS-KG",
+      "source_code": "https://github.com/Tangmjiu/NGS-KG",
+      "release_date": "2026-07-13",
+      "downloads": 0,
+      "architectures": [
+        "arm64-v8a"
       ]
     }
   ]

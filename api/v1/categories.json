@@ -2,10 +2,11 @@
   "categories": [
     {
       "name": "Tools",
-      "count": 2,
+      "count": 3,
       "apps": [
         "com.buge.appmanager",
-        "com.buge.codeintegrator"
+        "com.buge.codeintegrator",
+        "com.mjiutang.ngskg"
       ]
     },
     {
@@ -14,6 +15,13 @@
       "apps": [
         "com.buge.appmanager",
         "com.buge.codeintegrator"
+      ]
+    },
+    {
+      "name": "Music",
+      "count": 1,
+      "apps": [
+        "com.mjiutang.ngskg"
       ]
     }
   ]

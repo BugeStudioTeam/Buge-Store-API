@@ -1,16 +1,23 @@
 {
-  "last_updated": "2026-07-18T04:39:54.700911Z",
+  "last_updated": "2026-07-18T12:24:27.766964Z",
   "trending": [
     {
       "package": "com.buge.appmanager",
       "name": "Buge App Manager",
-      "downloads": 1523,
-      "rating": 4.8,
-      "trend_score": 1571.0
+      "downloads": 0,
+      "rating": 0.0,
+      "trend_score": 0.0
     },
     {
       "package": "com.buge.codeintegrator",
       "name": "Code Integrator",
+      "downloads": 0,
+      "rating": 0.0,
+      "trend_score": 0.0
+    },
+    {
+      "package": "com.mjiutang.ngskg",
+      "name": "NGS-KG+",
       "downloads": 0,
       "rating": 0.0,
       "trend_score": 0.0
