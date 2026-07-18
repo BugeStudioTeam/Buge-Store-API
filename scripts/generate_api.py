@@ -30,7 +30,9 @@ def load_app_configs(apps_dir):
                 'size_mb': apk.get('file_size_mb', 0),
                 'signature': data.get('signature_fingerprint', ''),
                 'min_sdk': data.get('min_sdk', 0),
-                'developer': data.get('developer', 'Unknown')
+                'target_sdk': data.get('target_sdk', 0),
+                'developer': data.get('developer', 'Unknown'),
+                'changelog': latest_version.get('changelog', '')
             }
             apps.append(app_entry)
             
