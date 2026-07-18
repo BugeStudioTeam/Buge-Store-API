@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18T00:43:44.635748Z",
+  "last_updated": "2026-07-18T01:35:05.740321Z",
   "trending": [
     {
       "package": "com.buge.appmanager",
@@ -8,8 +8,8 @@
       "trend_score": 0
     },
     {
-      "package": "com.buge.appmanager",
-      "name": "Buge App Manager",
+      "package": "com.buge.codeintegrator",
+      "name": "Code Integrator",
       "downloads": 0,
       "trend_score": 0
     }
