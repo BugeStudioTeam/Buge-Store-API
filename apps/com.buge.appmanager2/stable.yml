@@ -1,0 +1,43 @@
+package_name: com.buge.appmanager
+app_name: Buge App Manager
+developer: BugeStudioTeam
+website: https://bugestudio.website/appmanager/
+source_code: https://github.com/BugeStudioTeam/Buge-App-Manager
+
+versions:
+  - version_code: 138
+    version_name: "8.54.105"
+    release_date: "2026-07-17"
+    changelog: |
+      **8.54.105**
+
+      **Added** ✨
+      - Added Traditional Chinese language support
+        
+      **Optimizations** ⚡
+      - Optimized icon and resource files
+      - Improved language system
+        
+      **Contributors of this version:**
+      None
+    apk:
+      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager8.54.105/BugeAppManager-v8.54.105-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager8.54.105/BugeAppManager-v8.54.105-release.apk
+      sha256_hash: 82be4aa82acd47073a1958828d52f59737f008b8e09a4428b2398596146c92c5
+      file_size_mb: 8.93
+
+signature_fingerprint: "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88"
+
+min_sdk: 26
+target_sdk: 34
+architectures:
+  - arm64-v8a
+  - armeabi-v7a
+  - x86
+
+categories:
+  - Tools
+  - Utilities
+
+downloads: 0
+rating: 0.0
