@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-07-18T03:58:23.332902Z",
+  "last_updated": "2026-07-18T04:10:03.289276Z",
   "total_apps": 2,
   "apps": [
     {
@@ -51,9 +51,9 @@
       "min_sdk": 21,
       "target_sdk": 34,
       "developer": "BugeStudioTeam",
-      "changelog": "1.4.3\n\nAdd:\nFour languages added\n  \nBug:\nFixed cannot use Code Integrator\n",
-      "short_description": "",
-      "description": "",
+      "changelog": "1.4.3\n\nAdded\n- Added support for four new languages\n\nFixed\n- Fixed issue where Code Integrator could not be used\n",
+      "short_description": "Merge source code files from any project into a single text file for analysis, backup, and sharing",
+      "description": "Code Integrator is an Android utility app that merges source code files from any project folder into a single, well-organized text file. It simplifies code analysis, backup, and sharing by consolidating your entire project's source into one portable file.\n\nFeatures\n\n- Merge all source files into one text file for easy review and sharing\n- Project tree structure viewer with visual hierarchy\n- Custom file type filters to exclude images, audio, video, archives, binaries, and more\n- Auto-exclude build and .gradle folders to keep output clean\n- File size ranking to quickly spot large files\n- Material Design 3 UI with light and dark theme support\n\nSupported File Types\n\nIncluded: .java, .kt, .xml, .gradle, .txt, .md, .json, .sh, .bat, .gitignore\nExcluded by default: .jpg, .png, .mp3, .mp4, .zip, .exe, .pdf, .doc, .class, and more\n\nOutput Format\n\nThe generated file includes:\n- Project tree structure with folder and file icons\n- Complete content of each text file\n- File size ranking for quick identification of large files\n\nNote: Storage permission is required to access project folders.\n\nLicense: GNU General Public License v3.0\n",
       "featured": false,
       "rating": 0.0,
       "rating_count": 0,
