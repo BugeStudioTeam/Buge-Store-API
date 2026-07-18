@@ -2,15 +2,17 @@
   "categories": [
     {
       "name": "Tools",
-      "count": 1,
+      "count": 2,
       "apps": [
+        "com.buge.appmanager",
         "com.buge.appmanager"
       ]
     },
     {
       "name": "Utilities",
-      "count": 1,
+      "count": 2,
       "apps": [
+        "com.buge.appmanager",
         "com.buge.appmanager"
       ]
     }
