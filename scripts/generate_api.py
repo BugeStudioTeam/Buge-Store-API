@@ -1,72 +1,49 @@
-import os
-import yaml
-import json
-import requests
-import re
-import sys
-from pathlib import Path
-from datetime import datetime
+name: Index Builder
 
-def get_release_downloads(owner, repo, token=None):
-    headers = {}
-    if token:
-        headers['Authorization'] = f'token {token}'
-    
-    total_downloads = 0
-    page = 1
-    url = f'https://api.github.com/repos/{owner}/{repo}/releases'
-    
-    while True:
-        try:
-            response = requests.get(
-                url,
-                headers=headers,
-                params={'page': page, 'per_page': 100},
-                timeout=10
-            )
-            
-            if response.status_code != 200:
-                print(f"GitHub API error: {response.status_code} for {owner}/{repo}")
-                return None
-            
-            releases = response.json()
-            
-            if not releases:
-                break
-            
-            for release in releases:
-                for asset in release.get('assets', []):
-                    total_downloads += asset.get('download_count', 0)
-            
-            page += 1
-            
-        except Exception as e:
-            print(f"Failed to fetch downloads for {owner}/{repo}: {e}")
-            return None
-    
-    return total_downloads
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'apps/**/*.yml'
+      - 'apps/**/*.yaml'
+  workflow_dispatch:
 
-def get_real_downloads(source_code_url, github_token=None):
-    if not source_code_url:
-        return None
-    
-    match = re.search(r'github\.com/([^/]+)/([^/]+)', source_code_url)
-    if not match:
-        return None
-    
-    owner = match.group(1)
-    repo = match.group(2).replace('.git', '')
-    return get_release_downloads(owner, repo, github_token)
+concurrency:
+  group: index-builder
+  cancel-in-progress: true
 
-def load_app_configs(apps_dir, github_token=None):
-    apps = []
-    yaml_files = list(apps_dir.rglob('*.yml')) + list(apps_dir.rglob('*.yaml'))
-    
-    for yaml_file in yaml_files:
-        try:
-            with open(yaml_file, 'r', encoding='utf-8') as f:
-                data = yaml.safe_load(f)
-            
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml requests
+
+      - name: Generate API JSON
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/generate_api.py
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update API index [skip ci]"
+          file_pattern: "api/v1/*.json"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"            
             if not data:
                 continue
             
