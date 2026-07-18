@@ -28,6 +28,30 @@
       "format": "uri",
       "description": "Source code repository URL"
     },
+    "short_description": {
+      "type": "string",
+      "maxLength": 200,
+      "description": "Brief app description for list view"
+    },
+    "description": {
+      "type": "string",
+      "description": "Full app description for detail page"
+    },
+    "featured": {
+      "type": "boolean",
+      "description": "Whether this app appears in the featured banner"
+    },
+    "rating": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Average user rating (0-5)"
+    },
+    "rating_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of users who rated this app"
+    },
     "versions": {
       "type": "array",
       "minItems": 1,
@@ -85,7 +109,7 @@
     "signature_fingerprint": {
       "type": "string",
       "pattern": "^([A-F0-9]{2}:){15}[A-F0-9]{2}$|^([A-F0-9]{2}:){19}[A-F0-9]{2}$",
-      "description": "SHA-1 certificate fingerprint, supports 16-group (32 chars) or 20-group (40 chars) format"
+      "description": "SHA-1 certificate fingerprint, supports 16-group or 20-group format"
     },
     "min_sdk": {
       "type": "integer",
@@ -116,12 +140,6 @@
       "type": "integer",
       "minimum": 0,
       "description": "Download count (auto-generated)"
-    },
-    "rating": {
-      "type": "number",
-      "minimum": 0,
-      "maximum": 5,
-      "description": "User rating (auto-generated)"
     }
   }
 }

@@ -24,6 +24,7 @@ def load_app_configs(apps_dir):
                 'package': package,
                 'name': data.get('app_name', 'Unknown'),
                 'icon': f"https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/{package}/metadata/icon.webp",
+                'banner': f"https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/{package}/metadata/banner.webp",
                 'categories': data.get('categories', []),
                 'latest_version': latest_version.get('version_name', '0.0.0'),
                 'download_url': apk.get('primary_url', ''),
@@ -32,7 +33,17 @@ def load_app_configs(apps_dir):
                 'min_sdk': data.get('min_sdk', 0),
                 'target_sdk': data.get('target_sdk', 0),
                 'developer': data.get('developer', 'Unknown'),
-                'changelog': latest_version.get('changelog', '')
+                'changelog': latest_version.get('changelog', ''),
+                'short_description': data.get('short_description', ''),
+                'description': data.get('description', ''),
+                'featured': data.get('featured', False),
+                'rating': data.get('rating', 0),
+                'rating_count': data.get('rating_count', 0),
+                'website': data.get('website', ''),
+                'source_code': data.get('source_code', ''),
+                'release_date': latest_version.get('release_date', ''),
+                'downloads': data.get('downloads', 0),
+                'architectures': data.get('architectures', [])
             }
             apps.append(app_entry)
             
@@ -67,14 +78,16 @@ def generate_categories_json(apps):
     return {'categories': categories}
 
 def generate_trending_json(apps):
+    sorted_apps = sorted(apps, key=lambda x: (x.get('rating', 0) * 10 + x.get('downloads', 0)), reverse=True)
     trending = [
         {
             'package': app['package'],
             'name': app['name'],
-            'downloads': 0,
-            'trend_score': 0
+            'downloads': app.get('downloads', 0),
+            'rating': app.get('rating', 0),
+            'trend_score': app.get('rating', 0) * 10 + app.get('downloads', 0)
         }
-        for app in apps
+        for app in sorted_apps[:10]
     ]
     
     return {
