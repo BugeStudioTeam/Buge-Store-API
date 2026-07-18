@@ -1,12 +1,6 @@
 {
-  "last_updated": "2026-07-18T00:52:00.653260Z",
+  "last_updated": "2026-07-18T00:56:22.210579Z",
   "trending": [
-    {
-      "package": "com.buge.appmanager",
-      "name": "Buge App Manager",
-      "downloads": 0,
-      "trend_score": 0
-    },
     {
       "package": "com.buge.appmanager",
       "name": "Buge App Manager",
