@@ -1,0 +1,61 @@
+package_name: com.mjiutang.ngskg
+app_name: NGS-KG+
+developer: Tangmjiu
+website: https://github.com/Tangmjiu/NGS-KG
+source_code: https://github.com/Tangmjiu/NGS-KG
+short_description: "NGS-KG+ v1.5.0-preview Nightcord 2.0.0 Preview (Android )"
+description: |
+  这是 NGS-KG+ 基于 Nightcord 2.0.0 的 Android 预览版本。
+  
+  本版本更新内容：
+  - 播放引擎从 just_audio 换成了 media_kit，底层能力更强
+  - UI 全面重写：新的侧边栏导航、MD3 动效和主题系统
+  - 新增播放队列管理、歌词增强、歌单收藏与多选操作
+  - 集成了 Navidrome 服务端支持
+
+This is the Android preview version of NGS-KG+ based on Nightcord 2.0.0.
+
+New in this version:
+
+· Replaced the playback engine from just_audio to media_kit for better performance and more features
+· Completely redesigned UI with new sidebar navigation, MD3 animations, and theming system
+· Added playback queue management, enhanced lyrics display, playlist favorites, and multi-select operations
+· Integrated Navidrome server support
+
+
+featured: true
+rating: 0.0
+rating_count: 0
+downloads: 0
+
+versions:
+  - version_code: 20260713
+    version_name: "1.5.0-preview"
+    release_date: "2026-07-13"
+    changelog: |
+      - 播放引擎从 just_audio 换成了 media_kit
+      - UI 全面重写，新增侧边栏导航、MD3 动效
+      - 新增播放队列管理、歌词增强、歌单收藏与多选操作
+      - 集成 Navidrome 服务端支持
+      
+      · Replaced the playback engine from just_audio to media_kit for better performance and more features
+      · Completely redesigned UI with new sidebar navigation, MD3 animations, and theming system
+      · Added playback queue management, enhanced lyrics display, playlist favorites, and multi-select operations
+      · Integrated Navidrome server support
+
+    apk:
+      primary_url: https://github.com/Tangmjiu/NGS-KG/releases/download/v1.5.0-preview/NGS-KG-arm64-v8a-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/Tangmjiu/NGS-KG/releases/download/v1.5.0-preview/NGS-KG-arm64-v8a-release.apk
+      sha256_hash: "c4d4040b5074df6d97c4a9277de0d24aabb8486fa3c265357b363d3e017e290e"
+      file_size_mb: 53.1
+
+signature_fingerprint: "C8:8E:A7:9A:11:88:65:53:25:44:BA:5F:71:A4:EE:5B:94:BB:FF:75"
+
+min_sdk: 24
+target_sdk: 36
+architectures:
+  - arm64-v8a
+
+categories:
+  - Music
+  - Tools
