@@ -1,0 +1,39 @@
+package_name: com.buge.appmanager
+app_name: Buge App Manager
+developer: BugeStudioTeam
+website: https://github.com/BugeStudioTeam/Buge-Code-Integrator
+source_code: https://github.com/BugeStudioTeam/Buge-Code-Integrator
+
+versions:
+  - version_code: 2
+    version_name: "1.4.3"
+    release_date: "2026-05-03"
+    changelog: |
+      1.4.3
+
+      Add:
+      Four languages added
+        
+      Bug:
+      Fixed cannot use Code Integrator
+    apk:
+      primary_url: https://github.com/BugeStudioTeam/Buge-Code-Integrator/releases/download/CodeIntegrator1.4.3/BugeCodeIntegrator-v1.4.3-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-Code-Integrator/releases/download/CodeIntegrator1.4.3/BugeCodeIntegrator-v1.4.3-release.apk
+      sha256_hash: 9b98b7116b38a6a3c4d51a10f0e409f6bff8a6012e5d9176fe648592c99c2874
+      file_size_mb: 4.5
+
+signature_fingerprint: "11:4F:C5:4A:9E:4E:B5:6E:78:9C:26:C6:E6:38:B2:B4:A3:5B:23:28"
+
+min_sdk: 21
+target_sdk: 34
+architectures:
+  - arm64-v8a
+  - armeabi-v7a
+  - x86
+
+categories:
+  - Tools
+  - Utilities
+
+downloads: 0
+rating: 0.0
