@@ -59,20 +59,32 @@ https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/api/v1/
 ```
 {
   "version": 1,
-  "last_updated": "2026-07-17T10:00:00Z",
+  "last_updated": "2026-07-18T10:00:00Z",
   "total_apps": 2,
   "apps": [
     {
-      "package": "com.example.app1",
+      "package": "com.example.package",
       "name": "Example App",
-      "icon": "https://.../icon.webp",
+      "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.example.package/metadata/icon.webp",
+      "banner": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.example.package/metadata/banner.webp",
       "categories": ["Tools", "Utilities"],
       "latest_version": "1.0.0",
-      "download_url": "https://.../app.apk",
+      "download_url": "https://github.com/example/repo/releases/download/v1.0.0/app.apk",
       "size_mb": 5.2,
-      "signature": "AB:CD:EF:...",
+      "signature": "AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34:56:78:90",
       "min_sdk": 21,
-      "developer": "BugeStudioTeam"
+      "target_sdk": 34,
+      "developer": "Example Developer",
+      "short_description": "A brief description for list view",
+      "description": "A full detailed description for the app detail page. Supports multiple lines.",
+      "featured": false,
+      "rating": 0.0,
+      "rating_count": 0,
+      "website": "https://example.com",
+      "source_code": "https://github.com/example/repo",
+      "release_date": "2026-07-17",
+      "downloads": 0,
+      "architectures": ["arm64-v8a", "armeabi-v7a"]
     }
   ]
 }
@@ -83,7 +95,7 @@ https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/api/v1/
 ### Step 1: Create Application Directory
 
 ```
-apps/com.yourcompany.yourapp/
+apps/com.example.package/
 ```
 
 ### Step 2: Create YAML Configuration
@@ -91,22 +103,31 @@ apps/com.yourcompany.yourapp/
 Copy the template from `templates/app-template.yml` and fill in your application details.
 
 ```
-package_name: com.yourcompany.yourapp
-app_name: Your App Name
-developer: Your Name
-website: https://yourwebsite.com
-source_code: https://github.com/your/repo
+package_name: com.example.package
+app_name: Example App
+developer: Example Developer
+website: https://example.com
+source_code: https://github.com/example/repo
+short_description: "A brief description for list view"
+description: |
+  A full detailed description for the app detail page.
+  Supports multiple lines.
+
+featured: false
+rating: 0.0
+rating_count: 0
+downloads: 0
 
 versions:
   - version_code: 20260717
     version_name: "1.0.0"
-    release_date: 2026-07-17
+    release_date: "2026-07-17"
     changelog: |
       - Initial release
     apk:
-      primary_url: https://github.com/your/repo/releases/download/v1.0.0/app.apk
-      mirror_url: https://ghproxy.net/https://github.com/your/repo/releases/download/v1.0.0/app.apk
-      sha256_hash: a4f5c8d9e2b1...
+      primary_url: https://github.com/example/repo/releases/download/v1.0.0/app.apk
+      mirror_url: https://ghproxy.net/https://github.com/example/repo/releases/download/v1.0.0/app.apk
+      sha256_hash: a4f5c8d9e2b1c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8
       file_size_mb: 5.2
 
 signature_fingerprint: "AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34:56:78:90"
@@ -125,8 +146,8 @@ categories:
 Place your application icon and banner in the metadata directory:
 
 ```
-apps/com.yourcompany.yourapp/metadata/icon.webp
-apps/com.yourcompany.yourapp/metadata/banner.webp
+apps/com.example.package/metadata/icon.webp
+apps/com.example.package/metadata/banner.webp
 ```
 
 ### Step 4: Submit Pull Request
