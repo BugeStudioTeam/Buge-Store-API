@@ -58,7 +58,7 @@ versions:
       primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.56.105/BugeAppManager-v9.56.105-release.apk
       mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.56.105/BugeAppManager-v9.56.105-release.apk
       sha256_hash: 82be4aa82acd47073a1958828d52f59737f008b8e09a4428b2398596146c92c5
-      file_size_mb: 8.93
+      file_size_mb: 9.13
 
 signature_fingerprint: "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88"
 
