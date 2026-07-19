@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-07-19T15:09:44.202558Z",
+  "last_updated": "2026-07-19T15:12:28.366577Z",
   "total_apps": 3,
   "apps": [
     {
@@ -14,7 +14,7 @@
       ],
       "latest_version": "9.56.105",
       "download_url": "https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.56.105/BugeAppManager-v9.56.105-release.apk",
-      "size_mb": 8.93,
+      "size_mb": 9.13,
       "signature": "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88",
       "min_sdk": 26,
       "target_sdk": 34,
