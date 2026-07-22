@@ -39,24 +39,20 @@ rating_count: 0
 downloads: 0
 
 versions:
-  - version_code: 138
-    version_name: "9.56.105"
-    release_date: "2026-07-19"
+  - version_code: 141
+    version_name: "9.57.105"
+    release_date: "2026-07-22"
     changelog: |
-      **9.56.105**
-
-      **Updated** ⬆️
-      - Updated Material Design library to `com.google.android.material:material:1.13.0`
+      **9.57.105**
 
       **Added** ✨
-      - Added app storage usage display on app details page
-      - Added installer name display on app details page
+      - Added support for custom Shizuku provider package name
 
       **Contributors of this version:**
       None
     apk:
-      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.56.105/BugeAppManager-v9.56.105-release.apk
-      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.56.105/BugeAppManager-v9.56.105-release.apk
+      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.57.105/BugeAppManager-v9.57.105-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.57.105/BugeAppManager-v9.57.105-release.apk
       sha256_hash: 82be4aa82acd47073a1958828d52f59737f008b8e09a4428b2398596146c92c5
       file_size_mb: 9.13
 
