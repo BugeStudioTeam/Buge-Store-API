@@ -1,6 +1,13 @@
 {
-  "last_updated": "2026-07-22T05:30:52.910650Z",
+  "last_updated": "2026-07-25T05:46:36.823827Z",
   "trending": [
+    {
+      "package": "com.mjiutang.ngskg",
+      "name": "NGS-KG+",
+      "downloads": 0,
+      "rating": 0.0,
+      "trend_score": 0.0
+    },
     {
       "package": "com.buge.appmanager",
       "name": "Buge App Manager",
@@ -11,13 +18,6 @@
     {
       "package": "com.buge.codeintegrator",
       "name": "Code Integrator",
-      "downloads": 0,
-      "rating": 0.0,
-      "trend_score": 0.0
-    },
-    {
-      "package": "com.mjiutang.ngskg",
-      "name": "NGS-KG+",
       "downloads": 0,
       "rating": 0.0,
       "trend_score": 0.0

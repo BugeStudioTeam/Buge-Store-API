@@ -4,9 +4,9 @@
       "name": "Tools",
       "count": 3,
       "apps": [
+        "com.mjiutang.ngskg",
         "com.buge.appmanager",
-        "com.buge.codeintegrator",
-        "com.mjiutang.ngskg"
+        "com.buge.codeintegrator"
       ]
     },
     {
