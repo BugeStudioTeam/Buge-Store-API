@@ -40,19 +40,22 @@ downloads: 0
 
 versions:
   - version_code: 141
-    version_name: "9.57.105"
-    release_date: "2026-07-22"
+    version_name: "9.58.105"
+    release_date: "2026-07-25"
     changelog: |
-      **9.57.105**
+      **9.58.105**
 
       **Added** ✨
-      - Added support for custom Shizuku provider package name
+      - Allowed creating shortcuts for activities
+
+      **Fixes** 🐛
+      - Fixed icon display errors
 
       **Contributors of this version:**
       None
     apk:
-      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.57.105/BugeAppManager-v9.57.105-release.apk
-      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.57.105/BugeAppManager-v9.57.105-release.apk
+      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.58.105/BugeAppManager-v9.58.105-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.58.105/BugeAppManager-v9.58.105-release.apk
       sha256_hash: 82be4aa82acd47073a1958828d52f59737f008b8e09a4428b2398596146c92c5
       file_size_mb: 9.13
 
