@@ -53,8 +53,8 @@ versions:
       **Fixes** 🐛
         - Fixed content error when batch extracting APKS
 
-**Contributors of this version:**
-None
+      **Contributors of this version:**
+        None
     apk:
       primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.60.106/BugeAppManager-v9.60.106-release.apk
       mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.60.106/BugeAppManager-v9.60.106-release.apk
