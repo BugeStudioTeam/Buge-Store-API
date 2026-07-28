@@ -39,25 +39,27 @@ rating_count: 0
 downloads: 0
 
 versions:
-  - version_code: 142
-    version_name: "9.58.105"
-    release_date: "2026-07-25"
+  - version_code: 145
+    version_name: "9.60.106"
+    release_date: "2026-07-28"
     changelog: |
-      **9.58.105**
+      **9.60.106**
 
       **Added** ✨
-      - Allowed creating shortcuts for activities
+        - Added share APKS functionality
+        - Added batch share APKS functionality
+        - Added batch share different package types functionality
 
       **Fixes** 🐛
-      - Fixed icon display errors
+        - Fixed content error when batch extracting APKS
 
       **Contributors of this version:**
-      None
+        None
     apk:
-      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.58.105/BugeAppManager-v9.58.105-release.apk
-      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.58.105/BugeAppManager-v9.58.105-release.apk
+      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.60.106/BugeAppManager-v9.60.106-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.60.106/BugeAppManager-v9.60.106-release.apk
       sha256_hash: 82be4aa82acd47073a1958828d52f59737f008b8e09a4428b2398596146c92c5
-      file_size_mb: 9.13
+      file_size_mb: 9.15
 
 signature_fingerprint: "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88"
 
@@ -67,6 +69,7 @@ architectures:
   - arm64-v8a
   - armeabi-v7a
   - x86
+  - x86_64
 
 categories:
   - Tools
