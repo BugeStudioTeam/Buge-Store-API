@@ -39,25 +39,23 @@ rating_count: 0
 downloads: 0
 
 versions:
-  - version_code: 145
-    version_name: "9.60.106"
-    release_date: "2026-07-28"
+  - version_code: 146
+    version_name: "9.61.106"
+    release_date: "2026-07-30"
     changelog: |
-      **9.60.106**
+      **9.61.106**
 
-      **Added** ✨
-        - Added share APKS functionality
-        - Added batch share APKS functionality
-        - Added batch share different package types functionality
+        **Added** ✨
+        - Added "Select All" and "Deselect All" functionality (thanks to @silfsy for issue #9)
 
-      **Fixes** 🐛
-        - Fixed content error when batch extracting APKS
+        **Fixes** 🐛
+        - Fixed multi-select menu layout issues on permissions page
 
-      **Contributors of this version:**
-        None
+        **Contributors of this version:**
+        - @silfsy
     apk:
-      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.60.106/BugeAppManager-v9.60.106-release.apk
-      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.60.106/BugeAppManager-v9.60.106-release.apk
+      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.61.106/BugeAppManager-v9.61.106-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.61.106/BugeAppManager-v9.61.106-release.apk
       sha256_hash: 82be4aa82acd47073a1958828d52f59737f008b8e09a4428b2398596146c92c5
       file_size_mb: 9.15
 
