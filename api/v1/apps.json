@@ -1,8 +1,41 @@
 {
   "version": 1,
-  "last_updated": "2026-07-30T01:58:39.028577Z",
-  "total_apps": 3,
+  "last_updated": "2026-07-31T09:12:25.276075Z",
+  "total_apps": 4,
   "apps": [
+    {
+      "package": "moe.shizuku.privileged.api",
+      "name": "Shizuku",
+      "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/moe.shizuku.privileged.api/metadata/icon.webp",
+      "banner": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/moe.shizuku.privileged.api/metadata/banner.webp",
+      "categories": [
+        "Tools",
+        "Utilities"
+      ],
+      "latest_version": "13.6.0.r1086.2650830c",
+      "download_url": "https://github.com/RikkaApps/Shizuku/releases/download/v13.6.0/shizuku-v13.6.0.r1086.2650830c-release.apk",
+      "size_mb": 2.45,
+      "signature": "29:00:B8:E7:62:73:75:49:D6:3C:41:05:69:06:B5:CD:AE:EF:6E:18",
+      "min_sdk": 24,
+      "target_sdk": 36,
+      "developer": "RikkaApps",
+      "changelog": "13.6.0\n- Support Android16 QPR1\n- Update the start command. You can copy this file to any executable location, such as /data/local/tmp/shizuku\n- Support auto start without root on Android13+ when connected to a trusted WLAN\n",
+      "short_description": "Shizuku allows apps to use system APIs directly with adb/root privileges.",
+      "description": "Shizuku is an Android application that enables other applications to utilize system APIs directly, either with root privileges or through ADB (Android Debug Bridge). It provides a secure and efficient way for apps to perform privileged operations without requiring full root access for the user.\n\nThis tool is essential for developers and advanced users who need to extend the functionality of their Android devices beyond standard app permissions. It achieves this by running a Shizuku server process that acts as an intermediary, forwarding system API calls from client applications.\n\nKey features include:\n- Securely granting system API access to non-root applications.\n- Support for ADB-based activation, eliminating the need for root on newer Android versions.\n- Enhanced control over device functionalities for advanced customization.\n- A robust framework for developing powerful Android utilities.\n\nLicense: Apache License 2.0\n",
+      "featured": true,
+      "rating": 0.0,
+      "rating_count": 0,
+      "website": "https://shizuku.rikka.app",
+      "source_code": "https://github.com/RikkaApps/Shizuku",
+      "release_date": "2025-05-25",
+      "downloads": 0,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ]
+    },
     {
       "package": "com.mjiutang.ngskg",
       "name": "NGS-KG+",

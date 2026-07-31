@@ -1,6 +1,13 @@
 {
-  "last_updated": "2026-07-30T01:58:39.028931Z",
+  "last_updated": "2026-07-31T09:12:25.276440Z",
   "trending": [
+    {
+      "package": "moe.shizuku.privileged.api",
+      "name": "Shizuku",
+      "downloads": 0,
+      "rating": 0.0,
+      "trend_score": 0.0
+    },
     {
       "package": "com.mjiutang.ngskg",
       "name": "NGS-KG+",

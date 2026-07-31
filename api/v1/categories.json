@@ -2,8 +2,9 @@
   "categories": [
     {
       "name": "Tools",
-      "count": 3,
+      "count": 4,
       "apps": [
+        "moe.shizuku.privileged.api",
         "com.mjiutang.ngskg",
         "com.buge.appmanager",
         "com.buge.codeintegrator"
@@ -11,8 +12,9 @@
     },
     {
       "name": "Utilities",
-      "count": 2,
+      "count": 3,
       "apps": [
+        "moe.shizuku.privileged.api",
         "com.buge.appmanager",
         "com.buge.codeintegrator"
       ]
