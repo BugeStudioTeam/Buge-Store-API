@@ -37,7 +37,7 @@ versions:
       sha256_hash: "6e273ab0e991c4e79bc8b1bbb9b9dd739ccac1a8712a541a214078886b7b790f"
       file_size_mb: 2.45
 
-signature_fingerprint: "26:85:59:0e:86:8f:b0:8b:ae:7e:0a:c4:13:56:4c:d1:ff:88:f5:cc:ff:74:af:9d:bd:0d:c9:18:e3:0d:b3:0"
+signature_fingerprint: "29:00:B8:E7:62:73:75:49:D6:3C:41:05:69:06:B5:CD:AE:EF:6E:18"
 
 min_sdk: 24
 target_sdk: 36
