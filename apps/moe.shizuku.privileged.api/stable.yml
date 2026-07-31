@@ -1,0 +1,52 @@
+package_name: moe.shizuku.privileged.api
+app_name: Shizuku
+developer: RikkaApps
+website: https://shizuku.rikka.app
+source_code: https://github.com/RikkaApps/Shizuku
+short_description: "Shizuku allows apps to use system APIs directly with adb/root privileges."
+description: |
+  Shizuku is an Android application that enables other applications to utilize system APIs directly, either with root privileges or through ADB (Android Debug Bridge). It provides a secure and efficient way for apps to perform privileged operations without requiring full root access for the user.
+
+  This tool is essential for developers and advanced users who need to extend the functionality of their Android devices beyond standard app permissions. It achieves this by running a Shizuku server process that acts as an intermediary, forwarding system API calls from client applications.
+
+  Key features include:
+  - Securely granting system API access to non-root applications.
+  - Support for ADB-based activation, eliminating the need for root on newer Android versions.
+  - Enhanced control over device functionalities for advanced customization.
+  - A robust framework for developing powerful Android utilities.
+
+  License: Apache License 2.0
+
+featured: true
+rating: 0.0
+rating_count: 0
+downloads: 0
+
+versions:
+  - version_code: 1086
+    version_name: "13.6.0.r1086.2650830c"
+    release_date: "2025-05-25"
+    changelog: |
+      13.6.0
+      - Support Android16 QPR1
+      - Update the start command. You can copy this file to any executable location, such as /data/local/tmp/shizuku
+      - Support auto start without root on Android13+ when connected to a trusted WLAN
+    apk:
+      primary_url: https://github.com/RikkaApps/Shizuku/releases/download/v13.6.0/shizuku-v13.6.0.r1086.2650830c-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/RikkaApps/Shizuku/releases/download/v13.6.0/shizuku-v13.6.0.r1086.2650830c-release.apk
+      sha256_hash: "6e273ab0e991c4e79bc8b1bbb9b9dd739ccac1a8712a541a214078886b7b790f"
+      file_size_mb: 2.45
+
+signature_fingerprint: "268b5590e868fb08bae7e0ac413564cd1ff88f5ccff74af9dbd0dc918e30db30"
+
+min_sdk: 24
+target_sdk: 36
+architectures:
+  - arm64-v8a
+  - armeabi-v7a
+  - x86
+  - x86_64
+
+categories:
+  - Tools
+  - Utilities
