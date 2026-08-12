@@ -4,19 +4,19 @@
       "name": "Tools",
       "count": 4,
       "apps": [
-        "moe.shizuku.privileged.api",
+        "com.buge.codeintegrator",
         "com.mjiutang.ngskg",
         "com.buge.appmanager",
-        "com.buge.codeintegrator"
+        "moe.shizuku.privileged.api"
       ]
     },
     {
       "name": "Utilities",
       "count": 3,
       "apps": [
-        "moe.shizuku.privileged.api",
+        "com.buge.codeintegrator",
         "com.buge.appmanager",
-        "com.buge.codeintegrator"
+        "moe.shizuku.privileged.api"
       ]
     },
     {

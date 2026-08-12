@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-08-02T13:57:02.740993Z",
+  "last_updated": "2026-08-12T12:39:45.339251Z",
   "trending": [
     {
-      "package": "moe.shizuku.privileged.api",
-      "name": "Shizuku",
+      "package": "com.buge.codeintegrator",
+      "name": "Code Integrator",
       "downloads": 0,
       "rating": 0.0,
       "trend_score": 0.0
@@ -23,8 +23,8 @@
       "trend_score": 0.0
     },
     {
-      "package": "com.buge.codeintegrator",
-      "name": "Code Integrator",
+      "package": "moe.shizuku.privileged.api",
+      "name": "Shizuku",
       "downloads": 0,
       "rating": 0.0,
       "trend_score": 0.0
