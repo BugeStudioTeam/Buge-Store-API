@@ -39,23 +39,33 @@ rating_count: 0
 downloads: 0
 
 versions:
-  - version_code: 148
-    version_name: "9.61.108"
-    release_date: "2026-08-02"
+  - version_code: 164
+    version_name: "10.64.111"
+    release_date: "2026-08-12"
     changelog: |
-      **9.61.108**
+      **10.64.111**
 
-        **Optimizations** ⚡
-        - Optimized underlying `build.gradle.kts` configuration
-        - Added explicit `buildToolsVersion` specification
+        **Changed** 🔧
+        - Completely revamped tablet and other interfaces
+        - Updated search box style
+        - Updated tablet mode navigation bar
+        - Restored PNG optimization
+
+        **Added** ✨
+        - Added signature SHA-256 verification
+        - Added F-Droid signature verification
+        - Enhanced custom tags
+
+        **Fixes** 🐛
+        - Fixed multi-select menu appearing during search
 
         **Contributors of this version:**
         None
     apk:
-      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.61.108/BugeAppManager-v9.61.108-release.apk
-      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager9.61.108/BugeAppManager-v9.61.108-release.apk
+      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager10.64.111/BugeAppManager-v10.64.111-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager10.64.111/BugeAppManager-v10.64.111-release.apk
       sha256_hash: 82be4aa82acd47073a1958828d52f59737f008b8e09a4428b2398596146c92c5
-      file_size_mb: 9.15
+      file_size_mb: 9.17
 
 signature_fingerprint: "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88"
 
