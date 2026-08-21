@@ -21,9 +21,17 @@
     },
     {
       "name": "Music",
+      "count": 2,
+      "apps": [
+        "com.mjiutang.ngskg",
+        "com.buge.player"
+      ]
+    },
+    {
+      "name": "Video",
       "count": 1,
       "apps": [
-        "com.mjiutang.ngskg"
+        "com.buge.player"
       ]
     }
   ]

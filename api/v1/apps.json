@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "last_updated": "2026-08-21T13:17:06.798239Z",
-  "total_apps": 4,
+  "last_updated": "2026-08-21T13:36:30.804692Z",
+  "total_apps": 5,
   "apps": [
     {
       "package": "com.buge.codeintegrator",
@@ -63,6 +63,39 @@
       "downloads": 0,
       "architectures": [
         "arm64-v8a"
+      ]
+    },
+    {
+      "package": "com.buge.player",
+      "name": "Buge Player",
+      "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.player/metadata/icon.webp",
+      "banner": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.player/metadata/banner.webp",
+      "categories": [
+        "Music",
+        "Video"
+      ],
+      "latest_version": "1.4.3",
+      "download_url": "https://github.com/BugeStudioTeam/Buge-Player/releases/download/1.4.3/app-release.apk",
+      "size_mb": 3.14,
+      "signature": "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88",
+      "min_sdk": 26,
+      "target_sdk": 35,
+      "developer": "BugeStudioTeam",
+      "changelog": "**1.4.3**\n\n  **Added** ✨\n  - Added standalone floating player for media opened from other apps via `ACTION_VIEW`\n  - Added network media playback support with direct MP3, AAC, MP4, WebM, MKV, and HLS `.m3u8` streams\n  - Added HLS auto-detection with user choice for audio or video handling\n  - Added welcome flow with guided setup on first launch\n\n  **Changed** 🔧\n  - Migrated playback engine to AndroidX Media3\n  - Full Material Design 3 Expressive UI with dynamic theming and Google Sans Flex typography\n  - Redesigned Now Playing, Library, Queue, and Settings screens\n  - Library now displays favourites first, followed by recent media\n  - Full-screen controls auto-hide after 3 seconds of inactivity\n\n  **Optimizations** ⚡\n  - First-frame extraction for library artwork and dynamic color generation\n  - Animated mini-player with progress ring for playback status\n\n  **Contributors of this version:**\n  None\n",
+      "short_description": "A privacy-first Android music and video player with local and network playback",
+      "description": "Buge Player is a polished, privacy-first Android music and video player built with Kotlin, AndroidX Media3, and Material Design 3 Expressive. It combines local and network media playback with a modern interface, dynamic artwork colors, multilingual support, and a standalone floating player for media opened from other applications.\n\nFeatures\n\n- Local and Network Media: Play local audio and video, HTTP/HTTPS progressive media, and HLS/M3U8 streams.\n\n- Music Playback: Full Now Playing experience with queue management, shuffle, repeat modes, speed control, favourites, recent media, notification controls, and lock screen playback controls.\n\n- Video Playback: Embedded video, immersive full-screen mode, elevated seek controls, automatic control hiding, and first-frame extraction for artwork and dynamic colors.\n\n- Open with Buge Player: Open compatible audio and video from file managers, galleries, and other apps through ACTION_VIEW in a standalone floating player.\n\n- Personalization: Material Design 3 Expressive UI, dynamic artwork colors, preset accents, light/dark/system themes, and Google Sans Flex typography.\n\n- Languages: English, French, German, Russian, Portuguese, Brazilian Portuguese, Spanish, Simplified Chinese, Traditional Chinese, Arabic, Japanese, and Korean.\n\nPrivacy\n\n- No advertising SDKs, analytics SDKs, account sign-in, or cloud backend.\n- Favourites, queue entries, language selection, theme settings, and recent media remain on the device.\n- Device media permission is requested only when the user scans the library.\n\nLicense: GNU General Public License v3.0\n",
+      "featured": true,
+      "rating": 0.0,
+      "rating_count": 0,
+      "website": "https://bugestudio.website/player/",
+      "source_code": "https://github.com/BugeStudioTeam/Buge-Player",
+      "release_date": "2026-08-20",
+      "downloads": 0,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
       ]
     },
     {
