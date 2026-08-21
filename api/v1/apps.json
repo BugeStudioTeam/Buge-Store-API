@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-08-12T12:39:45.338743Z",
+  "last_updated": "2026-08-21T13:17:06.798239Z",
   "total_apps": 4,
   "apps": [
     {
@@ -74,14 +74,14 @@
         "Tools",
         "Utilities"
       ],
-      "latest_version": "10.64.111",
-      "download_url": "https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager10.64.111/BugeAppManager-v10.64.111-release.apk",
-      "size_mb": 9.17,
+      "latest_version": "11.65.116",
+      "download_url": "https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager11.65.116/BugeAppManager-v11.65.116-release.apk",
+      "size_mb": 9.18,
       "signature": "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88",
       "min_sdk": 26,
       "target_sdk": 34,
       "developer": "BugeStudioTeam",
-      "changelog": "**10.64.111**\n\n  **Changed** 🔧\n  - Completely revamped tablet and other interfaces\n  - Updated search box style\n  - Updated tablet mode navigation bar\n  - Restored PNG optimization\n\n  **Added** ✨\n  - Added signature SHA-256 verification\n  - Added F-Droid signature verification\n  - Enhanced custom tags\n\n  **Fixes** 🐛\n  - Fixed multi-select menu appearing during search\n\n  **Contributors of this version:**\n  None\n",
+      "changelog": "**11.65.116**\n\n  **Optimizations** ⚡\n  - Optimized icons\n  - Improved app retrieval speed\n  - Added sort order setting persistence\n  - Improved page refresh performance\n\n  **Contributors of this version:**\n  None\n",
       "short_description": "An application management tool that obtains adb shell privileges via Shizuku",
       "description": "Buge App Manager is a powerful Android utility application designed for advanced app and permission management. Built with Material Design 3, it offers a modern and intuitive interface for granular control over your device.\n\nFeatures\n\n- Shizuku Integration: Operates with Shizuku authorization for elevated control without requiring root.\n\n- App Management: Browse and manage both user-installed and system applications with ease.\n\n- Material Design 3 UI: Clean, system-themed interface that follows the latest Android design guidelines.\n\nPermission Manager\n\n- View and modify app permissions by category\n- Supported categories include: Microphone, Camera, Location access, Notifications, Phone & Contacts, Storage and other\n- Filter permissions by granted or denied status\n- Batch permission operations for multiple apps\n\nPrivacy & Security\n\n- Quickly identify which apps have access to sensitive permissions\n- Optimize your device's security posture with clear permission insights\n\nNote: Shizuku is required for advanced permission management features.\n\nLicense: GNU General Public License v3.0\n",
       "featured": true,
@@ -89,7 +89,7 @@
       "rating_count": 0,
       "website": "https://bugestudio.website/appmanager/",
       "source_code": "https://github.com/BugeStudioTeam/Buge-App-Manager",
-      "release_date": "2026-08-12",
+      "release_date": "2026-08-17",
       "downloads": 0,
       "architectures": [
         "arm64-v8a",
