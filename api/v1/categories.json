@@ -28,6 +28,13 @@
       ]
     },
     {
+      "name": "File Management",
+      "count": 1,
+      "apps": [
+        "com.buge.files"
+      ]
+    },
+    {
       "name": "Video",
       "count": 1,
       "apps": [

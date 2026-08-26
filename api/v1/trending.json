@@ -1,6 +1,13 @@
 {
-  "last_updated": "2026-08-21T13:36:30.805248Z",
+  "last_updated": "2026-08-26T06:15:35.108532Z",
   "trending": [
+    {
+      "package": "com.buge.files",
+      "name": "Buge Files",
+      "downloads": 0,
+      "rating": 0.0,
+      "trend_score": 0.0
+    },
     {
       "package": "com.buge.codeintegrator",
       "name": "Code Integrator",
