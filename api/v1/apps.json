@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-08-26T06:15:35.108073Z",
+  "last_updated": "2026-08-26T06:19:14.484245Z",
   "total_apps": 6,
   "apps": [
     {
@@ -9,7 +9,8 @@
       "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.files/metadata/icon.webp",
       "banner": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.files/metadata/banner.webp",
       "categories": [
-        "File Management"
+        "File Management",
+        "Tools"
       ],
       "latest_version": "1.5.4",
       "download_url": "https://github.com/BugeStudioTeam/Buge-Files/releases/download/1.5.4/app-release.apk",

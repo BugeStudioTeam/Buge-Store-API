@@ -2,8 +2,9 @@
   "categories": [
     {
       "name": "Tools",
-      "count": 4,
+      "count": 5,
       "apps": [
+        "com.buge.files",
         "com.buge.codeintegrator",
         "com.mjiutang.ngskg",
         "com.buge.appmanager",
