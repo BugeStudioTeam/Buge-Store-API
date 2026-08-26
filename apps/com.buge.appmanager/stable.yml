@@ -39,23 +39,20 @@ rating_count: 0
 downloads: 0
 
 versions:
-  - version_code: 180
-    version_name: "11.65.116"
-    release_date: "2026-08-17"
+  - version_code: 181
+    version_name: "11.65.117"
+    release_date: "2026-08-25"
     changelog: |
-      **11.65.116**
+      **11.65.117**
 
-        **Optimizations** ⚡
-        - Optimized icons
-        - Improved app retrieval speed
-        - Added sort order setting persistence
-        - Improved page refresh performance
+        **Fixes** 🐛
+        - Fixed Dynamic Color option still showing on devices below Android 12
 
         **Contributors of this version:**
         None
     apk:
-      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager11.65.116/BugeAppManager-v11.65.116-release.apk
-      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager11.65.116/BugeAppManager-v11.65.116-release.apk
+      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager11.65.117/BugeAppManager-v11.65.117-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager11.65.117/BugeAppManager-v11.65.117-release.apk
       sha256_hash: 82be4aa82acd47073a1958828d52f59737f008b8e09a4428b2398596146c92c5
       file_size_mb: 9.18
 

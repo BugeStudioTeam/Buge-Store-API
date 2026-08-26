@@ -1,0 +1,61 @@
+package_name: com.buge.files
+app_name: Buge Files
+developer: BugeStudioTeam
+website: https://github.com/BugeStudioTeam/Buge-Files
+source_code: https://github.com/BugeStudioTeam/Buge-Files
+
+short_description: "Buge Files is a modern Android file manager built with Material Design 3 Expressive."
+
+description: |
+  Buge Files is a modern Android file manager designed for efficient file browsing and storage management. Built with Material Design 3 Expressive, it provides a clean, intuitive, system-themed interface for managing files on your device.
+
+  The application lets you browse internal storage, open folders, navigate through the file system, and view file details such as size and modification date. Files and folders are presented in a modern card-style layout that makes everyday file management clear and convenient.
+
+  Smart categories provide quick access to common file types. Images include JPEG, PNG, GIF, BMP, WebP and HEIC files. Videos include MP4, MKV, AVI, MOV, WMV, FLV and WebM files. Music includes MP3, WAV, FLAC, AAC, OGG and M4A files. Documents include PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT and MD files. Archive support covers ZIP, RAR, 7Z, TAR, GZ and BZ2 files. Android application packages are also identified as APK files.
+
+  Buge Files includes a storage overview with visual progress indicators to help you understand storage usage. The settings area supports multiple languages, light, dark and system-default themes, and a control for displaying hidden files and folders.
+
+  Privacy and security are core principles of Buge Files. It keeps file access on your device, requests no unnecessary permissions, and helps you organize files clearly for better privacy management.
+
+  Buge Files requires Android 8.0, API level 26, or later. The project is licensed under the GNU General Public License v3.0.
+
+featured: true
+rating: 0.0
+rating_count: 0
+downloads: 0
+
+versions:
+  - version_code: 14
+    version_name: "1.5.4"
+    release_date: "2026-08-25"
+    changelog: |
+      **1.5.4**
+
+      🎉 Complete remake finished! Brand new version!
+
+      **Added** ✨
+      - Full file management functionality
+      - Full Material Design 3 implementation
+
+      **Fixes** 🐛
+      - Fixed several critical vulnerabilities
+
+      **Contributors of this version:**
+      None
+    apk:
+      primary_url: https://github.com/BugeStudioTeam/Buge-Files/releases/download/1.5.4/app-release.apk
+      sha256_hash: 3f1170276de9b30994c9def3dd56e653ee78a8a19a481ffe0cd38c7a3db66597
+      file_size_mb: 2.05
+
+signature_fingerprint: "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88"
+
+min_sdk: 26
+target_sdk: 35
+architectures:
+  - arm64-v8a
+  - armeabi-v7a
+  - x86
+  - x86_64
+
+categories:
+  - File Management
