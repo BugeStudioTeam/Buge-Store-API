@@ -39,20 +39,24 @@ rating_count: 0
 downloads: 0
 
 versions:
-  - version_code: 181
-    version_name: "11.65.117"
-    release_date: "2026-08-25"
+  - version_code: 186
+    version_name: "11.65.122"
+    release_date: "2026-09-04"
     changelog: |
-      **11.65.117**
+      **11.65.122**
 
-        **Fixes** 🐛
-        - Fixed Dynamic Color option still showing on devices below Android 12
+        **Fixes** 🛠
+        - Fixed bug where returning to app list always scrolled back to the top (reported by @sunmonb666 in issue #15)
+        - Fixed settings page losing scroll position when confirming or canceling the "Disable Google Services" dialog (reported by @sunmonb666 in issue #15)
+
+        **Optimizations** ⚡
+        - Optimized icon resources
 
         **Contributors of this version:**
-        None
+        - @sunmonb666 for reporting issue #15
     apk:
-      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager11.65.117/BugeAppManager-v11.65.117-release.apk
-      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager11.65.117/BugeAppManager-v11.65.117-release.apk
+      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager11.65.122/BugeAppManager-v11.65.122-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager11.65.122/BugeAppManager-v11.65.122-release.apk
       sha256_hash: 82be4aa82acd47073a1958828d52f59737f008b8e09a4428b2398596146c92c5
       file_size_mb: 9.18
 
@@ -69,3 +73,4 @@ architectures:
 categories:
   - Tools
   - Utilities
+  - App Manager
