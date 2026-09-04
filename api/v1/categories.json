@@ -4,11 +4,11 @@
       "name": "Tools",
       "count": 5,
       "apps": [
-        "com.buge.files",
         "com.buge.codeintegrator",
         "com.mjiutang.ngskg",
-        "com.buge.appmanager",
-        "moe.shizuku.privileged.api"
+        "com.buge.files",
+        "moe.shizuku.privileged.api",
+        "com.buge.appmanager"
       ]
     },
     {
@@ -16,8 +16,8 @@
       "count": 3,
       "apps": [
         "com.buge.codeintegrator",
-        "com.buge.appmanager",
-        "moe.shizuku.privileged.api"
+        "moe.shizuku.privileged.api",
+        "com.buge.appmanager"
       ]
     },
     {
@@ -33,6 +33,13 @@
       "count": 1,
       "apps": [
         "com.buge.files"
+      ]
+    },
+    {
+      "name": "App Manager",
+      "count": 1,
+      "apps": [
+        "com.buge.appmanager"
       ]
     },
     {
