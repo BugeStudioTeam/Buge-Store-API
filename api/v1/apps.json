@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-09-04T11:30:44.390783Z",
+  "last_updated": "2026-09-09T14:46:47.143950Z",
   "total_apps": 6,
   "apps": [
     {
@@ -141,22 +141,22 @@
         "Utilities",
         "App Manager"
       ],
-      "latest_version": "11.65.122",
-      "download_url": "https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager11.65.122/BugeAppManager-v11.65.122-release.apk",
+      "latest_version": "12.69.125",
+      "download_url": "https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager12.69.125/BugeAppManager-v12.69.125-release.apk",
       "size_mb": 9.18,
       "signature": "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88",
       "min_sdk": 26,
       "target_sdk": 34,
       "developer": "BugeStudioTeam",
-      "changelog": "**11.65.122**\n\n  **Fixes** 🛠\n  - Fixed bug where returning to app list always scrolled back to the top (reported by @sunmonb666 in issue #15)\n  - Fixed settings page losing scroll position when confirming or canceling the \"Disable Google Services\" dialog (reported by @sunmonb666 in issue #15)\n\n  **Optimizations** ⚡\n  - Optimized icon resources\n\n  **Contributors of this version:**\n  - @sunmonb666 for reporting issue #15\n",
+      "changelog": "**12.69.125**\n\n  **Added** ✨\n  - Added LOGGING and LOGCAT recording\n\n  **Fixes** 🛠\n  - Fixed all missing language entries\n\n  **Optimizations** ⚡\n  - Improved settings tab categorization\n\n  **Contributors of this version:**\n  None\n",
       "short_description": "An application management tool that obtains adb shell privileges via Shizuku",
-      "description": "Buge App Manager is a powerful Android utility application designed for advanced app and permission management. Built with Material Design 3, it offers a modern and intuitive interface for granular control over your device.\n\nFeatures\n\n- Shizuku Integration: Operates with Shizuku authorization for elevated control without requiring root.\n\n- App Management: Browse and manage both user-installed and system applications with ease.\n\n- Material Design 3 UI: Clean, system-themed interface that follows the latest Android design guidelines.\n\nPermission Manager\n\n- View and modify app permissions by category\n- Supported categories include: Microphone, Camera, Location access, Notifications, Phone & Contacts, Storage and other\n- Filter permissions by granted or denied status\n- Batch permission operations for multiple apps\n\nPrivacy & Security\n\n- Quickly identify which apps have access to sensitive permissions\n- Optimize your device's security posture with clear permission insights\n\nNote: Shizuku is required for advanced permission management features.\n\nLicense: GNU General Public License v3.0\n",
+      "description": "Buge App Manager is a powerful Android utility application designed for advanced app and permission management. Built with Material Design 3, it offers a modern and intuitive interface for granular control over your device.\n\nFeatures\n\n- Shizuku Integration: Operates with Shizuku or ROOT authorization for elevated control without requiring root.\n\n- App Management: Browse and manage both user-installed and system applications with ease.\n\n- Material Design 3 UI: Clean, system-themed interface that follows the latest Android design guidelines.\n\nPermission Manager\n\n- View and modify app permissions by category\n- Supported categories include: Microphone, Camera, Location access, Notifications, Phone & Contacts, Storage and other\n- Filter permissions by granted or denied status\n- Batch permission operations for multiple apps\n\nPrivacy & Security\n\n- Quickly identify which apps have access to sensitive permissions\n- Optimize your device's security posture with clear permission insights\n\nNote: Shizuku is required for advanced permission management features.\n\nLicense: GNU General Public License v3.0\n",
       "featured": true,
       "rating": 0.0,
       "rating_count": 0,
       "website": "https://bugestudio.website/appmanager/",
       "source_code": "https://github.com/BugeStudioTeam/Buge-App-Manager",
-      "release_date": "2026-09-04",
+      "release_date": "2026-09-09",
       "downloads": 0,
       "architectures": [
         "arm64-v8a",
