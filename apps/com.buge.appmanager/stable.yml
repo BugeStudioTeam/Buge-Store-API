@@ -11,7 +11,7 @@ description: |
   
   Features
   
-  - Shizuku Integration: Operates with Shizuku authorization for elevated control without requiring root.
+  - Shizuku Integration: Operates with Shizuku or ROOT authorization for elevated control without requiring root.
   
   - App Management: Browse and manage both user-installed and system applications with ease.
   
@@ -39,24 +39,26 @@ rating_count: 0
 downloads: 0
 
 versions:
-  - version_code: 186
-    version_name: "11.65.122"
-    release_date: "2026-09-04"
+  - version_code: 193
+    version_name: "12.69.125"
+    release_date: "2026-09-09"
     changelog: |
-      **11.65.122**
+      **12.69.125**
+
+        **Added** ✨
+        - Added LOGGING and LOGCAT recording
 
         **Fixes** 🛠
-        - Fixed bug where returning to app list always scrolled back to the top (reported by @sunmonb666 in issue #15)
-        - Fixed settings page losing scroll position when confirming or canceling the "Disable Google Services" dialog (reported by @sunmonb666 in issue #15)
+        - Fixed all missing language entries
 
         **Optimizations** ⚡
-        - Optimized icon resources
+        - Improved settings tab categorization
 
         **Contributors of this version:**
-        - @sunmonb666 for reporting issue #15
+        None
     apk:
-      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager11.65.122/BugeAppManager-v11.65.122-release.apk
-      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager11.65.122/BugeAppManager-v11.65.122-release.apk
+      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager12.69.125/BugeAppManager-v12.69.125-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager12.69.125/BugeAppManager-v12.69.125-release.apk
       sha256_hash: 82be4aa82acd47073a1958828d52f59737f008b8e09a4428b2398596146c92c5
       file_size_mb: 9.18
 
