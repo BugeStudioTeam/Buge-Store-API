@@ -39,28 +39,31 @@ rating_count: 0
 downloads: 0
 
 versions:
-  - version_code: 193
-    version_name: "12.69.125"
-    release_date: "2026-09-09"
+  - version_code: 198
+    version_name: "12.71.128"
+    release_date: "2026-09-19"
     changelog: |
-      **12.69.125**
+      **12.71.128**
 
-        **Added** ✨
-        - Added LOGGING and LOGCAT recording
+      **Added** ✨
+      - Added backup feature (will be significantly optimized later) — suggested by Telegram: Ashuchiha
+      - Added automatic backup feature — suggested by Telegram: Ashuchiha
+      - Added multi-language support for the app details more menu — suggested by @ChinaXiaole
 
-        **Fixes** 🛠
-        - Fixed all missing language entries
+      **Fixes** 🛠
+      - Fixed duplicate logcat bug
 
-        **Optimizations** ⚡
-        - Improved settings tab categorization
-
-        **Contributors of this version:**
-        None
+      **Optimizations** ⚡
+      - Improved logcat
+      
+      **Contributors of this version:**
+      - Telegram: Ashuchiha
+      - @ChinaXiaole
     apk:
-      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager12.69.125/BugeAppManager-v12.69.125-release.apk
-      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager12.69.125/BugeAppManager-v12.69.125-release.apk
+      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager12.71.128/BugeAppManager-v12.71.128-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager12.71.128/BugeAppManager-v12.71.128-release.apk
       sha256_hash: 82be4aa82acd47073a1958828d52f59737f008b8e09a4428b2398596146c92c5
-      file_size_mb: 9.18
+      file_size_mb: 9.52
 
 signature_fingerprint: "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88"
 
