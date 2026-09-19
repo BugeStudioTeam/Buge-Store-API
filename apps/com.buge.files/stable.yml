@@ -29,17 +29,19 @@ versions:
     version_name: "1.5.4"
     release_date: "2026-08-25"
     changelog: |
-      **1.5.4**
-
-      🎉 Complete remake finished! Brand new version!
+      **1.6.5**
 
       **Added** ✨
-      - Full file management functionality
-      - Full Material Design 3 implementation
-
-      **Fixes** 🐛
-      - Fixed several critical vulnerabilities
-
+      - Added default language
+      - Added Shizuku installation test
+      
+      **Fixes** 🛠
+      - Fixed border issues
+      
+      **Optimizations** ⚡
+      - Improved interface
+      - Improved colors
+      
       **Contributors of this version:**
       None
     apk:
