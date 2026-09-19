@@ -25,7 +25,7 @@ rating_count: 0
 downloads: 0
 
 versions:
-  - version_code: 14
+  - version_code: 15
     version_name: "1.5.4"
     release_date: "2026-08-25"
     changelog: |
