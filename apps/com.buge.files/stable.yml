@@ -47,7 +47,7 @@ versions:
     apk:
       primary_url: https://github.com/BugeStudioTeam/Buge-Files/releases/download/1.6.5/app-release.apk
       sha256_hash: 3f1170276de9b30994c9def3dd56e653ee78a8a19a481ffe0cd38c7a3db66597
-      file_size_mb: 12.20
+      file_size_mb: 12.23
 
 signature_fingerprint: "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88"
 
