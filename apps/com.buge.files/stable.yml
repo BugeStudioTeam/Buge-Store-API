@@ -60,5 +60,5 @@ architectures:
   - x86_64
 
 categories:
-  - File Management
+  - Files Management
   - Tools
