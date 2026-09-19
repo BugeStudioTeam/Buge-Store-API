@@ -26,7 +26,7 @@ downloads: 0
 
 versions:
   - version_code: 15
-    version_name: "1.5.4"
+    version_name: "1.6.5"
     release_date: "2026-08-25"
     changelog: |
       **1.6.5**
