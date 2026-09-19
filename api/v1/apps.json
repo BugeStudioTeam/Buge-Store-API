@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-09-19T02:13:29.207515Z",
+  "last_updated": "2026-09-19T02:22:12.645436Z",
   "total_apps": 6,
   "apps": [
     {
@@ -71,25 +71,25 @@
       "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.files/metadata/icon.webp",
       "banner": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.files/metadata/banner.webp",
       "categories": [
-        "File Management",
+        "Files Management",
         "Tools"
       ],
-      "latest_version": "1.5.4",
-      "download_url": "https://github.com/BugeStudioTeam/Buge-Files/releases/download/1.5.4/app-release.apk",
-      "size_mb": 2.05,
+      "latest_version": "1.6.5",
+      "download_url": "https://github.com/BugeStudioTeam/Buge-Files/releases/download/1.6.5/app-release.apk",
+      "size_mb": 12.23,
       "signature": "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88",
       "min_sdk": 26,
       "target_sdk": 35,
       "developer": "BugeStudioTeam",
       "changelog": "**1.6.5**\n\n**Added** ✨\n- Added default language\n- Added Shizuku installation test\n\n**Fixes** 🛠\n- Fixed border issues\n\n**Optimizations** ⚡\n- Improved interface\n- Improved colors\n\n**Contributors of this version:**\nNone\n",
-      "short_description": "Buge Files is a modern Android file manager built with Material Design 3 Expressive.",
-      "description": "Buge Files is a modern Android file manager designed for efficient file browsing and storage management. Built with Material Design 3 Expressive, it provides a clean, intuitive, system-themed interface for managing files on your device.\n\nThe application lets you browse internal storage, open folders, navigate through the file system, and view file details such as size and modification date. Files and folders are presented in a modern card-style layout that makes everyday file management clear and convenient.\n\nSmart categories provide quick access to common file types. Images include JPEG, PNG, GIF, BMP, WebP and HEIC files. Videos include MP4, MKV, AVI, MOV, WMV, FLV and WebM files. Music includes MP3, WAV, FLAC, AAC, OGG and M4A files. Documents include PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT and MD files. Archive support covers ZIP, RAR, 7Z, TAR, GZ and BZ2 files. Android application packages are also identified as APK files.\n\nBuge Files includes a storage overview with visual progress indicators to help you understand storage usage. The settings area supports multiple languages, light, dark and system-default themes, and a control for displaying hidden files and folders.\n\nPrivacy and security are core principles of Buge Files. It keeps file access on your device, requests no unnecessary permissions, and helps you organize files clearly for better privacy management.\n\nBuge Files requires Android 8.0, API level 26, or later. The project is licensed under the GNU General Public License v3.0.\n",
+      "short_description": "Buge Files is a modern Android files manager, it built with Material Design 3 Expressive.",
+      "description": "Buge Files is a modern Android file manager designed for efficient file browsing and storage management. Built with Material Design 3 Expressive, it provides a clean, intuitive, system-themed interface for managing files on your device.\n\nThe application lets you browse internal storage, open folders, navigate through the file system, and view file details such as size and modification date. Files and folders are presented in a modern card-style layout that makes everyday file management clear and convenient.\n\nSmart categories provide quick access to common file types. Images include JPEG, PNG, GIF, BMP, WebP and HEIC files. Videos include MP4, MKV, AVI, MOV, WMV, FLV and WebM files. Music includes MP3, WAV, FLAC, AAC, OGG and M4A files. Documents include PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT and MD files. Archive support covers ZIP, RAR, 7Z, TAR, GZ and BZ2 files. Android application packages are also identified as APK files.\n\nBuge Files includes a storage overview with visual progress indicators to help you understand storage usage. The settings area supports multiple languages, light, dark and system-default themes, and a control for displaying hidden files and folders.\n\nPrivacy and security are core principles of Buge Files. It keeps file access on your device, requests no unnecessary permissions, and helps you organize files clearly for better privacy management.\n\nBuge Files requires Android 8.0 (API 26), or later. The project is licensed under the GNU General Public License v3.0.\n",
       "featured": true,
       "rating": 0.0,
       "rating_count": 0,
       "website": "https://github.com/BugeStudioTeam/Buge-Files",
       "source_code": "https://github.com/BugeStudioTeam/Buge-Files",
-      "release_date": "2026-08-25",
+      "release_date": "2026-09-14",
       "downloads": 0,
       "architectures": [
         "arm64-v8a",
