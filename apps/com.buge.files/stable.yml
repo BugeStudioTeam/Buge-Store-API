@@ -7,7 +7,7 @@ source_code: https://github.com/BugeStudioTeam/Buge-Files
 short_description: "Buge Files is a modern Android files manager, it built with Material Design 3 Expressive."
 
 description: |
-  Buge Files is a modern Android file manager designed for efficient file browsing and storage management. Built with Material Design 3 Expressive, it provides a clean, intuitive, system-themed interface for managing files on your device.
+  Buge Files is a modern Android files manager designed for efficient file browsing and storage management. Built with Material Design 3 Expressive, it provides a clean, intuitive, system-themed interface for managing files on your device.
 
   The application lets you browse internal storage, open folders, navigate through the file system, and view file details such as size and modification date. Files and folders are presented in a modern card-style layout that makes everyday file management clear and convenient.
 
