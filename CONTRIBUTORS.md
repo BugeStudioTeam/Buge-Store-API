@@ -15,7 +15,7 @@ We welcome contributions from everyone. Here is how you can help:
 
 ## Recognition
 
-All contributors who have submitted pull requests that were merged will be listed here.
+All contributors who have submitted **pull requests** that were merged will be listed here.
 
 ## Adding Your Application
 
