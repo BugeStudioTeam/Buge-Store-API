@@ -25,29 +25,25 @@ rating_count: 0
 downloads: 0
 
 versions:
-  - version_code: 15
-    version_name: "1.6.5"
-    release_date: "2026-09-14"
+  - version_code: 27
+    version_name: "1.13.15"
+    release_date: "2026-10-07"
     changelog: |
-      **1.6.5**
+      **1.13.15**
 
-      **Added** ✨
-      - Added default language
-      - Added Shizuku installation test
-      
-      **Fixes** 🛠
-      - Fixed border issues
-      
-      **Optimizations** ⚡
-      - Improved interface
-      - Improved colors
-      
-      **Contributors of this version:**
-      None
+        **Added** ✨
+        - Added status information
+
+        **Fixes** 🛠
+        - Fixed SMB bugs
+        - Fixed menu bugs
+
+        **Contributors of this version:**
+        - @valerie-garoux
     apk:
-      primary_url: https://github.com/BugeStudioTeam/Buge-Files/releases/download/1.6.5/app-release.apk
+      primary_url: https://github.com/BugeStudioTeam/Buge-Files/releases/download/1.13.15/app-release.apk
       sha256_hash: 3f1170276de9b30994c9def3dd56e653ee78a8a19a481ffe0cd38c7a3db66597
-      file_size_mb: 12.23
+      file_size_mb: 15.90
 
 signature_fingerprint: "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88"
 
