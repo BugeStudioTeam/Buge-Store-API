@@ -4,11 +4,11 @@
       "name": "Tools",
       "count": 5,
       "apps": [
-        "com.buge.codeintegrator",
         "com.mjiutang.ngskg",
-        "com.buge.files",
+        "com.buge.codeintegrator",
+        "com.buge.appmanager",
         "moe.shizuku.privileged.api",
-        "com.buge.appmanager"
+        "com.buge.files"
       ]
     },
     {
@@ -16,23 +16,23 @@
       "count": 3,
       "apps": [
         "com.buge.codeintegrator",
-        "moe.shizuku.privileged.api",
-        "com.buge.appmanager"
+        "com.buge.appmanager",
+        "moe.shizuku.privileged.api"
       ]
     },
     {
       "name": "Music",
       "count": 2,
       "apps": [
-        "com.mjiutang.ngskg",
-        "com.buge.player"
+        "com.buge.player",
+        "com.mjiutang.ngskg"
       ]
     },
     {
-      "name": "Files Management",
+      "name": "Video",
       "count": 1,
       "apps": [
-        "com.buge.files"
+        "com.buge.player"
       ]
     },
     {
@@ -43,10 +43,10 @@
       ]
     },
     {
-      "name": "Video",
+      "name": "Files Management",
       "count": 1,
       "apps": [
-        "com.buge.player"
+        "com.buge.files"
       ]
     }
   ]

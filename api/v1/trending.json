@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-09-21T13:06:46.523211Z",
+  "last_updated": "2026-10-07T02:37:35.747730Z",
   "trending": [
     {
-      "package": "com.buge.codeintegrator",
-      "name": "Code Integrator",
+      "package": "com.buge.player",
+      "name": "Buge Player",
       "downloads": 0,
       "rating": 0.0,
       "trend_score": 0.0
@@ -16,15 +16,8 @@
       "trend_score": 0.0
     },
     {
-      "package": "com.buge.files",
-      "name": "Buge Files",
-      "downloads": 0,
-      "rating": 0.0,
-      "trend_score": 0.0
-    },
-    {
-      "package": "moe.shizuku.privileged.api",
-      "name": "Shizuku",
+      "package": "com.buge.codeintegrator",
+      "name": "Code Integrator",
       "downloads": 0,
       "rating": 0.0,
       "trend_score": 0.0
@@ -37,8 +30,15 @@
       "trend_score": 0.0
     },
     {
-      "package": "com.buge.player",
-      "name": "Buge Player",
+      "package": "moe.shizuku.privileged.api",
+      "name": "Shizuku",
+      "downloads": 0,
+      "rating": 0.0,
+      "trend_score": 0.0
+    },
+    {
+      "package": "com.buge.files",
+      "name": "Buge Files",
       "downloads": 0,
       "rating": 0.0,
       "trend_score": 0.0
