@@ -39,31 +39,22 @@ rating_count: 0
 downloads: 0
 
 versions:
-  - version_code: 198
-    version_name: "12.71.128"
-    release_date: "2026-09-19"
+  - version_code: 204
+    version_name: "12.73.132"
+    release_date: "2026-10-02"
     changelog: |
-      **12.71.128**
+      **12.73.132**
 
-      **Added** ✨
-      - Added backup feature (will be significantly optimized later) — suggested by Telegram: Ashuchiha
-      - Added automatic backup feature — suggested by Telegram: Ashuchiha
-      - Added multi-language support for the app details more menu — suggested by @ChinaXiaole
+        **Changed** 🔧
+        - Transparent build (no impact on app usage)
 
-      **Fixes** 🛠
-      - Fixed duplicate logcat bug
-
-      **Optimizations** ⚡
-      - Improved logcat
-      
-      **Contributors of this version:**
-      - Telegram: Ashuchiha
-      - @ChinaXiaole
+        **Contributors of this version:**
+        None
     apk:
-      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager12.71.128/BugeAppManager-v12.71.128-release.apk
-      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager12.71.128/BugeAppManager-v12.71.128-release.apk
+      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager12.73.132/BugeAppManager-v12.73.132-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager12.73.132/BugeAppManager-v12.73.132-release.apk
       sha256_hash: 82be4aa82acd47073a1958828d52f59737f008b8e09a4428b2398596146c92c5
-      file_size_mb: 9.52
+      file_size_mb: 9.78
 
 signature_fingerprint: "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88"
 
