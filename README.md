@@ -10,19 +10,6 @@ Buge Store API - A lightweight open-source app store index that stores YAML conf
 - Community-driven application catalog
 - GitHub Releases based APK distribution
 
-## Repository Structure
-
-```
-BugeStore-API/
-├── .github/workflows/     # GitHub Actions automation
-├── apps/                  # Application YAML configurations
-├── api/v1/               # Generated JSON APIs
-├── scripts/              # Validation and generation scripts
-├── schemas/              # JSON Schema specifications
-├── templates/            # Configuration templates
-└── tests/                # Unit and integration tests
-```
-
 ## Quick Start
 
 ### For Android Users
