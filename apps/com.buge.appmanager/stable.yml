@@ -4,7 +4,7 @@ developer: BugeStudioTeam
 website: https://bugestudio.website/appmanager/
 source_code: https://github.com/BugeStudioTeam/Buge-App-Manager
 
-short_description: "An application management tool that obtains adb shell privileges via Shizuku"
+short_description: "An application management tool that obtains adb shell privileges via Shizuku, Dhizuku or Root"
 
 description: |
   Buge App Manager is a powerful Android utility application designed for advanced app and permission management. Built with Material Design 3, it offers a modern and intuitive interface for granular control over your device.
@@ -39,22 +39,23 @@ rating_count: 0
 downloads: 0
 
 versions:
-  - version_code: 204
-    version_name: "12.73.132"
+  - version_code: 224
+    version_name: "13.81.143"
     release_date: "2026-10-02"
     changelog: |
-      **12.73.132**
+      **13.81.143**
 
-        **Changed** 🔧
-        - Transparent build (no impact on app usage)
+      **Optimizations** ⚡
+      - Improved layout
+      - Updated font to Google Sans Flex, fully applied across all languages and locales in the app
 
-        **Contributors of this version:**
-        None
+      **Contributors of this version:**
+      None
     apk:
-      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager12.73.132/BugeAppManager-v12.73.132-release.apk
-      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager12.73.132/BugeAppManager-v12.73.132-release.apk
+      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager13.81.143/BugeAppManager-v13.81.143-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager13.81.143/BugeAppManager-v13.81.143-release.apk
       sha256_hash: 82be4aa82acd47073a1958828d52f59737f008b8e09a4428b2398596146c92c5
-      file_size_mb: 9.78
+      file_size_mb: 7.82
 
 signature_fingerprint: "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88"
 
