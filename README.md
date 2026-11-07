@@ -178,6 +178,7 @@ Choose from existing categories or suggest new ones:
 - Productivity
 - Education
 - Games
+- others (It might be modified)
 
 ## Automation Workflows
 
