@@ -1,6 +1,6 @@
 # Buge Store API
 
-Buge Store API is a lightweight GitHub open source app store index that stores yaml configurations only, with APK files distributed via GitHub Releases. Features automated PR validation, 30-second merge workflow, and unified API endpoints for both Android clients and web interfaces. Built for speed, transparency, and community contributions.
+Buge Store API is a lightweight GitHub open source app store index that stores yaml configurations only, with APK files distributed via GitHub Releases. Features automated PR validation, and unified API endpoints for both Android clients and web interfaces. Built for speed, transparency, and community contributions.
 
 ## Features
 
@@ -25,7 +25,6 @@ https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/api/v1/apps
 1. Fork this repository
 2. Add your application YAML in `apps/` directory
 3. Submit a Pull Request
-4. Automated validation will merge within 30 seconds
 
 ## API Endpoints
 
