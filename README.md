@@ -4,7 +4,7 @@ Buge Store API is a lightweight GitHub open source app store index that stores y
 
 ## Features
 
-- YAML-only configuration storage
+- YAML/YML only configuration storage
 - Automated PR validation and merge within 30 seconds
 - Unified API for Android and web clients
 - Community-driven application catalog
