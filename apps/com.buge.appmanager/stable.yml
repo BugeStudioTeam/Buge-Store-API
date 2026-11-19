@@ -39,23 +39,27 @@ rating_count: 0
 downloads: 0
 
 versions:
-  - version_code: 224
-    version_name: "13.81.143"
-    release_date: "2026-11-02"
+  - version_code: 248
+    version_name: "13.92.156"
+    release_date: "2026-11-18"
     changelog: |
-      **13.81.143**
+      **13.92.156**
 
-      **Optimizations** ⚡
-      - Improved layout
-      - Updated font to Google Sans Flex, fully applied across all languages and locales in the app
+      **Added**
+      - New more personalized and textured icon, with dynamic color background on Android 12+
+      - Complete log feature overhaul
+      - Restored log retention functionality
+
+      **Fixes**
+      - Fixed crash caused by duplicate log records
 
       **Contributors of this version:**
       None
     apk:
-      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager13.81.143/BugeAppManager-v13.81.143-release.apk
-      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager13.81.143/BugeAppManager-v13.81.143-release.apk
+      primary_url: https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager13.92.156/BugeAppManager-v13.92.156-release.apk
+      mirror_url: https://ghproxy.net/https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager13.92.156/BugeAppManager-v13.92.156-release.apk
       sha256_hash: 82be4aa82acd47073a1958828d52f59737f008b8e09a4428b2398596146c92c5
-      file_size_mb: 7.82
+      file_size_mb: 7.85
 
 signature_fingerprint: "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88"
 
