@@ -1,23 +1,16 @@
 {
-  "last_updated": "2026-11-02T11:23:40.054075Z",
+  "last_updated": "2026-11-19T04:25:07.105798Z",
   "trending": [
+    {
+      "package": "com.buge.player",
+      "name": "Buge Player",
+      "downloads": 0,
+      "rating": 0.0,
+      "trend_score": 0.0
+    },
     {
       "package": "com.buge.files",
       "name": "Buge Files",
-      "downloads": 0,
-      "rating": 0.0,
-      "trend_score": 0.0
-    },
-    {
-      "package": "com.buge.appmanager",
-      "name": "Buge App Manager",
-      "downloads": 0,
-      "rating": 0.0,
-      "trend_score": 0.0
-    },
-    {
-      "package": "com.buge.codeintegrator",
-      "name": "Code Integrator",
       "downloads": 0,
       "rating": 0.0,
       "trend_score": 0.0
@@ -30,6 +23,13 @@
       "trend_score": 0.0
     },
     {
+      "package": "com.buge.codeintegrator",
+      "name": "Code Integrator",
+      "downloads": 0,
+      "rating": 0.0,
+      "trend_score": 0.0
+    },
+    {
       "package": "moe.shizuku.privileged.api",
       "name": "Shizuku",
       "downloads": 0,
@@ -37,8 +37,8 @@
       "trend_score": 0.0
     },
     {
-      "package": "com.buge.player",
-      "name": "Buge Player",
+      "package": "com.buge.appmanager",
+      "name": "Buge App Manager",
       "downloads": 0,
       "rating": 0.0,
       "trend_score": 0.0

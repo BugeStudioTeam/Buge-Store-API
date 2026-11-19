@@ -1,8 +1,41 @@
 {
   "version": 1,
-  "last_updated": "2026-11-02T11:23:40.053409Z",
+  "last_updated": "2026-11-19T04:25:07.105236Z",
   "total_apps": 6,
   "apps": [
+    {
+      "package": "com.buge.player",
+      "name": "Buge Player",
+      "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.player/metadata/icon.webp",
+      "banner": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.player/metadata/banner.webp",
+      "categories": [
+        "Music",
+        "Video"
+      ],
+      "latest_version": "1.5.8",
+      "download_url": "https://github.com/BugeStudioTeam/Buge-Player/releases/download/1.5.8/app-release.apk",
+      "size_mb": 14.3,
+      "signature": "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88",
+      "min_sdk": 26,
+      "target_sdk": 35,
+      "developer": "BugeStudioTeam",
+      "changelog": "**1.5.8**\n\n  **Fixes** 🐛\n  - Fixed layout deformation on narrow screens\n  - Fixed shadow shape rendering\n  - Fixed \"Open with\" flow issues\n\n  **Optimizations** ⚡\n  - Improved overall user experience\n\n  **Contributors of this version:**\n  None\n",
+      "short_description": "A privacy-first Android music and video player with local and network playback",
+      "description": "Buge Player is a polished, privacy-first Android music and video player built with Kotlin, AndroidX Media3, and Material Design 3 Expressive. It combines local and network media playback with a modern interface, dynamic artwork colors, multilingual support, and a standalone floating player for media opened from other applications.\n\nFeatures\n\n- Local and Network Media: Play local audio and video, HTTP/HTTPS progressive media, and HLS/M3U8 streams.\n\n- Music Playback: Full Now Playing experience with queue management, shuffle, repeat modes, speed control, favourites, recent media, notification controls, and lock screen playback controls.\n\n- Video Playback: Embedded video, immersive full-screen mode, elevated seek controls, automatic control hiding, and first-frame extraction for artwork and dynamic colors.\n\n- Open with Buge Player: Open compatible audio and video from file managers, galleries, and other apps through ACTION_VIEW in a standalone floating player.\n\n- Personalization: Material Design 3 Expressive UI, dynamic artwork colors, preset accents, light/dark/system themes, and Google Sans Flex typography.\n\n- Languages: English, French, German, Russian, Portuguese, Brazilian Portuguese, Spanish, Simplified Chinese, Traditional Chinese, Arabic, Japanese, and Korean.\n\nPrivacy\n\n- No advertising SDKs, analytics SDKs, account sign-in, or cloud backend.\n- Favourites, queue entries, language selection, theme settings, and recent media remain on the device.\n- Device media permission is requested only when the user scans the library.\n\nLicense: GNU General Public License v3.0\n",
+      "featured": true,
+      "rating": 0.0,
+      "rating_count": 0,
+      "website": "https://bugestudio.website/player/",
+      "source_code": "https://github.com/BugeStudioTeam/Buge-Player",
+      "release_date": "2026-08-23",
+      "downloads": 0,
+      "architectures": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ]
+    },
     {
       "package": "com.buge.files",
       "name": "Buge Files",
@@ -37,37 +70,33 @@
       ]
     },
     {
-      "package": "com.buge.appmanager",
-      "name": "Buge App Manager",
-      "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.appmanager/metadata/icon.webp",
-      "banner": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.appmanager/metadata/banner.webp",
+      "package": "com.mjiutang.ngskg",
+      "name": "NGS-KG+",
+      "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.mjiutang.ngskg/metadata/icon.webp",
+      "banner": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.mjiutang.ngskg/metadata/banner.webp",
       "categories": [
-        "Tools",
-        "Utilities",
-        "App Manager"
+        "Music",
+        "Tools"
       ],
-      "latest_version": "13.81.143",
-      "download_url": "https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager13.81.143/BugeAppManager-v13.81.143-release.apk",
-      "size_mb": 7.82,
-      "signature": "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88",
-      "min_sdk": 26,
-      "target_sdk": 34,
-      "developer": "BugeStudioTeam",
-      "changelog": "**13.81.143**\n\n**Optimizations** ⚡\n- Improved layout\n- Updated font to Google Sans Flex, fully applied across all languages and locales in the app\n\n**Contributors of this version:**\nNone\n",
-      "short_description": "An application management tool that obtains adb shell privileges via Shizuku, Dhizuku or Root",
-      "description": "Buge App Manager is a powerful Android utility application designed for advanced app and permission management. Built with Material Design 3, it offers a modern and intuitive interface for granular control over your device.\n\nFeatures\n\n- Shizuku Integration: Operates with Shizuku or ROOT authorization for elevated control without requiring root.\n\n- App Management: Browse and manage both user-installed and system applications with ease.\n\n- Material Design 3 UI: Clean, system-themed interface that follows the latest Android design guidelines.\n\nPermission Manager\n\n- View and modify app permissions by category\n- Supported categories include: Microphone, Camera, Location access, Notifications, Phone & Contacts, Storage and other\n- Filter permissions by granted or denied status\n- Batch permission operations for multiple apps\n\nPrivacy & Security\n\n- Quickly identify which apps have access to sensitive permissions\n- Optimize your device's security posture with clear permission insights\n\nNote: Shizuku is required for advanced permission management features.\n\nLicense: GNU General Public License v3.0\n",
+      "latest_version": "1.5.0-preview",
+      "download_url": "https://github.com/Tangmjiu/NGS-KG/releases/download/v1.5.0-preview/NGS-KG-arm64-v8a-release.apk",
+      "size_mb": 53.1,
+      "signature": "C8:8E:A7:9A:11:88:65:53:25:44:BA:5F:71:A4:EE:5B:94:BB:FF:75",
+      "min_sdk": 24,
+      "target_sdk": 36,
+      "developer": "Tangmjiu",
+      "changelog": "- 播放引擎从 just_audio 换成了 media_kit\n- UI 全面重写，新增侧边栏导航、MD3 动效\n- 新增播放队列管理、歌词增强、歌单收藏与多选操作\n- 集成 Navidrome 服务端支持\n\n· Replaced the playback engine from just_audio to media_kit for better performance and more features\n· Completely redesigned UI with new sidebar navigation, MD3 animations, and theming system\n· Added playback queue management, enhanced lyrics display, playlist favorites, and multi-select operations\n· Integrated Navidrome server support\n",
+      "short_description": "NGS-KG+ v1.5.0-preview Nightcord 2.0.0 Preview (Android)",
+      "description": "这是 NGS-KG+ 基于 Nightcord 2.0.0 的 Android 预览版本。\n\n本版本更新内容：\n- 播放引擎从 just_audio 换成了 media_kit，底层能力更强\n- UI 全面重写：新的侧边栏导航、MD3 动效和主题系统\n- 新增播放队列管理、歌词增强、歌单收藏与多选操作\n- 集成了 Navidrome 服务端支持\n\nThis is the Android preview version of NGS-KG+ based on Nightcord 2.0.0.\n\nNew in this version:\n\n· Replaced the playback engine from just_audio to media_kit for better performance and more features\n· Completely redesigned UI with new sidebar navigation, MD3 animations, and theming system\n· Added playback queue management, enhanced lyrics display, playlist favorites, and multi-select operations\n· Integrated Navidrome server support\n",
       "featured": true,
       "rating": 0.0,
       "rating_count": 0,
-      "website": "https://bugestudio.website/appmanager/",
-      "source_code": "https://github.com/BugeStudioTeam/Buge-App-Manager",
-      "release_date": "2026-11-02",
+      "website": "https://github.com/Tangmjiu/NGS-KG",
+      "source_code": "https://github.com/Tangmjiu/NGS-KG",
+      "release_date": "2026-07-13",
       "downloads": 0,
       "architectures": [
-        "arm64-v8a",
-        "armeabi-v7a",
-        "x86",
-        "x86_64"
+        "arm64-v8a"
       ]
     },
     {
@@ -100,36 +129,6 @@
         "arm64-v8a",
         "armeabi-v7a",
         "x86"
-      ]
-    },
-    {
-      "package": "com.mjiutang.ngskg",
-      "name": "NGS-KG+",
-      "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.mjiutang.ngskg/metadata/icon.webp",
-      "banner": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.mjiutang.ngskg/metadata/banner.webp",
-      "categories": [
-        "Music",
-        "Tools"
-      ],
-      "latest_version": "1.5.0-preview",
-      "download_url": "https://github.com/Tangmjiu/NGS-KG/releases/download/v1.5.0-preview/NGS-KG-arm64-v8a-release.apk",
-      "size_mb": 53.1,
-      "signature": "C8:8E:A7:9A:11:88:65:53:25:44:BA:5F:71:A4:EE:5B:94:BB:FF:75",
-      "min_sdk": 24,
-      "target_sdk": 36,
-      "developer": "Tangmjiu",
-      "changelog": "- 播放引擎从 just_audio 换成了 media_kit\n- UI 全面重写，新增侧边栏导航、MD3 动效\n- 新增播放队列管理、歌词增强、歌单收藏与多选操作\n- 集成 Navidrome 服务端支持\n\n· Replaced the playback engine from just_audio to media_kit for better performance and more features\n· Completely redesigned UI with new sidebar navigation, MD3 animations, and theming system\n· Added playback queue management, enhanced lyrics display, playlist favorites, and multi-select operations\n· Integrated Navidrome server support\n",
-      "short_description": "NGS-KG+ v1.5.0-preview Nightcord 2.0.0 Preview (Android)",
-      "description": "这是 NGS-KG+ 基于 Nightcord 2.0.0 的 Android 预览版本。\n\n本版本更新内容：\n- 播放引擎从 just_audio 换成了 media_kit，底层能力更强\n- UI 全面重写：新的侧边栏导航、MD3 动效和主题系统\n- 新增播放队列管理、歌词增强、歌单收藏与多选操作\n- 集成了 Navidrome 服务端支持\n\nThis is the Android preview version of NGS-KG+ based on Nightcord 2.0.0.\n\nNew in this version:\n\n· Replaced the playback engine from just_audio to media_kit for better performance and more features\n· Completely redesigned UI with new sidebar navigation, MD3 animations, and theming system\n· Added playback queue management, enhanced lyrics display, playlist favorites, and multi-select operations\n· Integrated Navidrome server support\n",
-      "featured": true,
-      "rating": 0.0,
-      "rating_count": 0,
-      "website": "https://github.com/Tangmjiu/NGS-KG",
-      "source_code": "https://github.com/Tangmjiu/NGS-KG",
-      "release_date": "2026-07-13",
-      "downloads": 0,
-      "architectures": [
-        "arm64-v8a"
       ]
     },
     {
@@ -166,30 +165,31 @@
       ]
     },
     {
-      "package": "com.buge.player",
-      "name": "Buge Player",
-      "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.player/metadata/icon.webp",
-      "banner": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.player/metadata/banner.webp",
+      "package": "com.buge.appmanager",
+      "name": "Buge App Manager",
+      "icon": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.appmanager/metadata/icon.webp",
+      "banner": "https://raw.githubusercontent.com/BugeStudioTeam/Buge-Store-API/main/apps/com.buge.appmanager/metadata/banner.webp",
       "categories": [
-        "Music",
-        "Video"
+        "Tools",
+        "Utilities",
+        "App Manager"
       ],
-      "latest_version": "1.5.8",
-      "download_url": "https://github.com/BugeStudioTeam/Buge-Player/releases/download/1.5.8/app-release.apk",
-      "size_mb": 14.3,
+      "latest_version": "13.92.156",
+      "download_url": "https://github.com/BugeStudioTeam/Buge-App-Manager/releases/download/AppManager13.92.156/BugeAppManager-v13.92.156-release.apk",
+      "size_mb": 7.85,
       "signature": "CE:47:04:F8:B0:CD:8E:29:06:F3:77:49:D3:53:AB:66:E5:A5:4C:88",
       "min_sdk": 26,
-      "target_sdk": 35,
+      "target_sdk": 34,
       "developer": "BugeStudioTeam",
-      "changelog": "**1.5.8**\n\n  **Fixes** 🐛\n  - Fixed layout deformation on narrow screens\n  - Fixed shadow shape rendering\n  - Fixed \"Open with\" flow issues\n\n  **Optimizations** ⚡\n  - Improved overall user experience\n\n  **Contributors of this version:**\n  None\n",
-      "short_description": "A privacy-first Android music and video player with local and network playback",
-      "description": "Buge Player is a polished, privacy-first Android music and video player built with Kotlin, AndroidX Media3, and Material Design 3 Expressive. It combines local and network media playback with a modern interface, dynamic artwork colors, multilingual support, and a standalone floating player for media opened from other applications.\n\nFeatures\n\n- Local and Network Media: Play local audio and video, HTTP/HTTPS progressive media, and HLS/M3U8 streams.\n\n- Music Playback: Full Now Playing experience with queue management, shuffle, repeat modes, speed control, favourites, recent media, notification controls, and lock screen playback controls.\n\n- Video Playback: Embedded video, immersive full-screen mode, elevated seek controls, automatic control hiding, and first-frame extraction for artwork and dynamic colors.\n\n- Open with Buge Player: Open compatible audio and video from file managers, galleries, and other apps through ACTION_VIEW in a standalone floating player.\n\n- Personalization: Material Design 3 Expressive UI, dynamic artwork colors, preset accents, light/dark/system themes, and Google Sans Flex typography.\n\n- Languages: English, French, German, Russian, Portuguese, Brazilian Portuguese, Spanish, Simplified Chinese, Traditional Chinese, Arabic, Japanese, and Korean.\n\nPrivacy\n\n- No advertising SDKs, analytics SDKs, account sign-in, or cloud backend.\n- Favourites, queue entries, language selection, theme settings, and recent media remain on the device.\n- Device media permission is requested only when the user scans the library.\n\nLicense: GNU General Public License v3.0\n",
+      "changelog": "**13.92.156**\n\n**Added**\n- New more personalized and textured icon, with dynamic color background on Android 12+\n- Complete log feature overhaul\n- Restored log retention functionality\n\n**Fixes**\n- Fixed crash caused by duplicate log records\n\n**Contributors of this version:**\nNone\n",
+      "short_description": "An application management tool that obtains adb shell privileges via Shizuku, Dhizuku or Root",
+      "description": "Buge App Manager is a powerful Android utility application designed for advanced app and permission management. Built with Material Design 3, it offers a modern and intuitive interface for granular control over your device.\n\nFeatures\n\n- Shizuku Integration: Operates with Shizuku or ROOT authorization for elevated control without requiring root.\n\n- App Management: Browse and manage both user-installed and system applications with ease.\n\n- Material Design 3 UI: Clean, system-themed interface that follows the latest Android design guidelines.\n\nPermission Manager\n\n- View and modify app permissions by category\n- Supported categories include: Microphone, Camera, Location access, Notifications, Phone & Contacts, Storage and other\n- Filter permissions by granted or denied status\n- Batch permission operations for multiple apps\n\nPrivacy & Security\n\n- Quickly identify which apps have access to sensitive permissions\n- Optimize your device's security posture with clear permission insights\n\nNote: Shizuku is required for advanced permission management features.\n\nLicense: GNU General Public License v3.0\n",
       "featured": true,
       "rating": 0.0,
       "rating_count": 0,
-      "website": "https://bugestudio.website/player/",
-      "source_code": "https://github.com/BugeStudioTeam/Buge-Player",
-      "release_date": "2026-08-23",
+      "website": "https://bugestudio.website/appmanager/",
+      "source_code": "https://github.com/BugeStudioTeam/Buge-App-Manager",
+      "release_date": "2026-11-18",
       "downloads": 0,
       "architectures": [
         "arm64-v8a",
